@@ -203,18 +203,30 @@ function App() {
       }
     
       
-      const maxVolume = Math.max(...filteredData.map(stock => Math.max(...stock.data.map(item => item.y))));
-      const minVolume = Math.min(...filteredData.map(stock => Math.min(...stock.data.map(item => item.y))));
+      //const maxVolume = Math.max(...filteredData.map(stock => Math.max(...stock.data.map(item => item.y))));
+      //const minVolume = Math.min(...filteredData.map(stock => Math.min(...stock.data.map(item => item.y))));
       
       const normalizationType = selectedNormalization.value;
-      
         
       if (normalizationType === "min-max") {
-        filteredData.forEach(stock => {
+        const rangeDivision = 1 / filteredData.length; // Divide the [0,1] interval by the number of companies.
+        let cumulativeOffset = 0; // Initialize an offset to sum the normalized values.
+      
+        filteredData.forEach((stock, index) => {
+          // Calculate min and max for each stock.
+          const stockMax = Math.max(...stock.data.map(item => item.y));
+          const stockMin = Math.min(...stock.data.map(item => item.y));
+          // Normalize each stock's data to the [0, rangeDivision] interval.
           stock.data = stock.data.map(item => ({
             x: item.x,
-            y: (item.y - minVolume) / (maxVolume - minVolume)
+            y: ((item.y - stockMin) / (stockMax - stockMin)) * rangeDivision
           }));
+          // Offset each stock's normalized data to ensure the full range [0,1] is used cumulatively.
+          stock.data = stock.data.map(item => ({
+            x: item.x,
+            y: item.y + cumulativeOffset
+          }));
+          cumulativeOffset += rangeDivision; // Increase the offset for the next company.
         });
       } else if (normalizationType === "z-score") {
         filteredData.forEach(stock => {

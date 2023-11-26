@@ -14,7 +14,7 @@ export const MyResponsiveLine = ({ data , date}) => {
     const startOfYear = new Date(selectedYear, 0, 1);
 
     // Filtra os dados para incluir somente pontos desde o início do ano até a data selecionada
-    const filteredData = data.map(serie => ({
+    var filteredData = data.map(serie => ({
         ...serie,
         data: serie.data.filter(point => {
             const pointDate = new Date(point.x);
@@ -29,23 +29,23 @@ export const MyResponsiveLine = ({ data , date}) => {
         firstPriceMap.set(serie.id, firstPrice);
     });
 
+    // Filter out any series that do not have a first price defined
+    filteredData = filteredData.filter(serie => {
+        const fp = firstPriceMap.get(serie.id);
+
+        return fp !== undefined; // Only include series where first price is defined
+    });
+    
+    // Now perform the mapping on the filtered array
     filteredData.forEach(serie => {
         const fp = firstPriceMap.get(serie.id);
-        //check if the first price is undefined
-        if (fp === undefined) {
-            filteredData.splice(filteredData.indexOf(serie), 1);
-            return;
-        }
         const firstPrice = fp.y;
         serie.data = serie.data.map(point => ({
-            ...point,
-            y: ((point.y - firstPrice) / firstPrice) * 100
+        ...point,
+        y: ((point.y - firstPrice) / firstPrice) * 100
         }));
-    }
-    );
+    });
 
-
-    //console.log("filtered data",filteredData);
 
     return <ResponsiveLine
         data={filteredData}

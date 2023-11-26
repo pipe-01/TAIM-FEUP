@@ -1,0 +1,4782 @@
+[
+  {
+    "id": "AAPL",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 56517086.666666664
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 69589425.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 71028870.5
+      },
+      {
+        "x": "January-Thursday",
+        "y": 64402846.0
+      },
+      {
+        "x": "January-Friday",
+        "y": 63048671.8
+      },
+      {
+        "x": "February-Monday",
+        "y": 57534335.666666664
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 61576197.5
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 65828755.75
+      },
+      {
+        "x": "February-Thursday",
+        "y": 61342655.25
+      },
+      {
+        "x": "February-Friday",
+        "y": 52235513.0
+      },
+      {
+        "x": "March-Monday",
+        "y": 51461758.8
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 46525765.2
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 54382859.0
+      },
+      {
+        "x": "March-Thursday",
+        "y": 49565556.0
+      },
+      {
+        "x": "March-Friday",
+        "y": 58227657.5
+      },
+      {
+        "x": "April-Monday",
+        "y": 54391903.75
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 52973972.0
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 41592337.4
+      },
+      {
+        "x": "April-Thursday",
+        "y": 44407883.4
+      },
+      {
+        "x": "April-Friday",
+        "y": 45556968.0
+      },
+      {
+        "x": "May-Monday",
+        "y": 47968984.333333336
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 53190562.0
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 47280855.75
+      },
+      {
+        "x": "May-Thursday",
+        "y": 39902006.0
+      },
+      {
+        "x": "May-Friday",
+        "y": 49750295.6
+      },
+      {
+        "x": "June-Monday",
+        "y": 42395460.2
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 39175344.6
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 39567429.5
+      },
+      {
+        "x": "June-Thursday",
+        "y": 35296581.25
+      },
+      {
+        "x": "June-Friday",
+        "y": 42824193.5
+      },
+      {
+        "x": "July-Monday",
+        "y": 43214178.0
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 47272368.5
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 55422377.0
+      },
+      {
+        "x": "July-Thursday",
+        "y": 45331231.4
+      },
+      {
+        "x": "July-Friday",
+        "y": 48141617.25
+      },
+      {
+        "x": "August-Monday",
+        "y": 76849574.6
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 89845936.0
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 86282798.0
+      },
+      {
+        "x": "August-Thursday",
+        "y": 63639126.75
+      },
+      {
+        "x": "August-Friday",
+        "y": 65759949.75
+      },
+      {
+        "x": "September-Monday",
+        "y": 53122528.333333336
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 59748436.8
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 56974283.4
+      },
+      {
+        "x": "September-Thursday",
+        "y": 57614721.75
+      },
+      {
+        "x": "September-Friday",
+        "y": 57587250.25
+      },
+      {
+        "x": "October-Monday",
+        "y": 44656220.25
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 50189599.0
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 54776581.25
+      },
+      {
+        "x": "October-Thursday",
+        "y": 51292710.4
+      },
+      {
+        "x": "October-Friday",
+        "y": 51750135.0
+      },
+      {
+        "x": "November-Monday",
+        "y": 35168844.6
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 43758295.0
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 39541756.5
+      },
+      {
+        "x": "November-Thursday",
+        "y": 38458026.333333336
+      },
+      {
+        "x": "November-Friday",
+        "y": 31547056.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 42845669.5
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 37241107.8
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 38771503.6
+      },
+      {
+        "x": "December-Thursday",
+        "y": 34012811.8
+      },
+      {
+        "x": "December-Friday",
+        "y": 67038821.666666664
+      }
+    ]
+  },
+  {
+    "id": "KO",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 16286739.0
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 15455720.25
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 12964615.75
+      },
+      {
+        "x": "January-Thursday",
+        "y": 15325904.75
+      },
+      {
+        "x": "January-Friday",
+        "y": 13842671.8
+      },
+      {
+        "x": "February-Monday",
+        "y": 13465202.333333334
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 17740986.75
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 14252264.25
+      },
+      {
+        "x": "February-Thursday",
+        "y": 13954760.5
+      },
+      {
+        "x": "February-Friday",
+        "y": 16863238.0
+      },
+      {
+        "x": "March-Monday",
+        "y": 13698451.6
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 15274593.8
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 20963466.75
+      },
+      {
+        "x": "March-Thursday",
+        "y": 15092224.25
+      },
+      {
+        "x": "March-Friday",
+        "y": 20400572.25
+      },
+      {
+        "x": "April-Monday",
+        "y": 13124140.75
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 13207705.25
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 14540304.2
+      },
+      {
+        "x": "April-Thursday",
+        "y": 14056691.2
+      },
+      {
+        "x": "April-Friday",
+        "y": 11857349.333333334
+      },
+      {
+        "x": "May-Monday",
+        "y": 10593803.333333334
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 12090093.0
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 11478959.75
+      },
+      {
+        "x": "May-Thursday",
+        "y": 10615299.0
+      },
+      {
+        "x": "May-Friday",
+        "y": 12401909.0
+      },
+      {
+        "x": "June-Monday",
+        "y": 12531465.2
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 12177048.8
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 11104239.25
+      },
+      {
+        "x": "June-Thursday",
+        "y": 12248092.5
+      },
+      {
+        "x": "June-Friday",
+        "y": 17823078.5
+      },
+      {
+        "x": "July-Monday",
+        "y": 10267557.5
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 16089103.0
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 11563604.8
+      },
+      {
+        "x": "July-Thursday",
+        "y": 11093852.6
+      },
+      {
+        "x": "July-Friday",
+        "y": 12297524.75
+      },
+      {
+        "x": "August-Monday",
+        "y": 17836090.8
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 17842755.5
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 16074179.5
+      },
+      {
+        "x": "August-Thursday",
+        "y": 13682396.0
+      },
+      {
+        "x": "August-Friday",
+        "y": 15832955.0
+      },
+      {
+        "x": "September-Monday",
+        "y": 13729460.0
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 16237003.6
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 15693440.8
+      },
+      {
+        "x": "September-Thursday",
+        "y": 17219977.25
+      },
+      {
+        "x": "September-Friday",
+        "y": 19322392.25
+      },
+      {
+        "x": "October-Monday",
+        "y": 14574957.0
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 18462207.25
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 15422535.5
+      },
+      {
+        "x": "October-Thursday",
+        "y": 17743178.8
+      },
+      {
+        "x": "October-Friday",
+        "y": 16800828.4
+      },
+      {
+        "x": "November-Monday",
+        "y": 13546604.4
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 11620477.0
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 10725154.25
+      },
+      {
+        "x": "November-Thursday",
+        "y": 14813603.0
+      },
+      {
+        "x": "November-Friday",
+        "y": 12640060.25
+      },
+      {
+        "x": "December-Monday",
+        "y": 12222926.5
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 11965094.2
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 12323234.0
+      },
+      {
+        "x": "December-Thursday",
+        "y": 11589829.0
+      },
+      {
+        "x": "December-Friday",
+        "y": 19429573.666666668
+      }
+    ]
+  },
+  {
+    "id": "ORCL",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 15497000.0
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 15849427.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 14304542.5
+      },
+      {
+        "x": "January-Thursday",
+        "y": 15430423.75
+      },
+      {
+        "x": "January-Friday",
+        "y": 17101829.6
+      },
+      {
+        "x": "February-Monday",
+        "y": 13530303.666666666
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 11503347.5
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 11548864.75
+      },
+      {
+        "x": "February-Thursday",
+        "y": 9783718.75
+      },
+      {
+        "x": "February-Friday",
+        "y": 10989623.25
+      },
+      {
+        "x": "March-Monday",
+        "y": 12692696.2
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 14735044.0
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 20293553.0
+      },
+      {
+        "x": "March-Thursday",
+        "y": 13623659.5
+      },
+      {
+        "x": "March-Friday",
+        "y": 18061301.75
+      },
+      {
+        "x": "April-Monday",
+        "y": 11013091.0
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 11546618.75
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 16227181.8
+      },
+      {
+        "x": "April-Thursday",
+        "y": 12808522.2
+      },
+      {
+        "x": "April-Friday",
+        "y": 14258444.333333334
+      },
+      {
+        "x": "May-Monday",
+        "y": 7556183.333333333
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 9751665.25
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 10082946.0
+      },
+      {
+        "x": "May-Thursday",
+        "y": 7847349.0
+      },
+      {
+        "x": "May-Friday",
+        "y": 9747487.2
+      },
+      {
+        "x": "June-Monday",
+        "y": 15233206.2
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 13653490.4
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 17397048.25
+      },
+      {
+        "x": "June-Thursday",
+        "y": 29743896.0
+      },
+      {
+        "x": "June-Friday",
+        "y": 25424338.0
+      },
+      {
+        "x": "July-Monday",
+        "y": 14098614.25
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 13675969.25
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 13537455.6
+      },
+      {
+        "x": "July-Thursday",
+        "y": 14314292.2
+      },
+      {
+        "x": "July-Friday",
+        "y": 12694902.75
+      },
+      {
+        "x": "August-Monday",
+        "y": 15494894.8
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 12909112.5
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 13685181.75
+      },
+      {
+        "x": "August-Thursday",
+        "y": 14922005.5
+      },
+      {
+        "x": "August-Friday",
+        "y": 14702571.25
+      },
+      {
+        "x": "September-Monday",
+        "y": 17203288.0
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 18707879.0
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 16472485.6
+      },
+      {
+        "x": "September-Thursday",
+        "y": 21019236.0
+      },
+      {
+        "x": "September-Friday",
+        "y": 20100811.75
+      },
+      {
+        "x": "October-Monday",
+        "y": 13548834.0
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 12947701.25
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 13882402.5
+      },
+      {
+        "x": "October-Thursday",
+        "y": 13983699.6
+      },
+      {
+        "x": "October-Friday",
+        "y": 17212852.6
+      },
+      {
+        "x": "November-Monday",
+        "y": 15837414.6
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 14258334.25
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 13924636.75
+      },
+      {
+        "x": "November-Thursday",
+        "y": 14418172.333333334
+      },
+      {
+        "x": "November-Friday",
+        "y": 14840423.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 14974380.5
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 14366866.6
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 15418241.8
+      },
+      {
+        "x": "December-Thursday",
+        "y": 19369387.2
+      },
+      {
+        "x": "December-Friday",
+        "y": 22400530.333333332
+      }
+    ]
+  },
+  {
+    "id": "ADBE",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 2445605.3333333335
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 2102463.75
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 2093573.25
+      },
+      {
+        "x": "January-Thursday",
+        "y": 2544988.5
+      },
+      {
+        "x": "January-Friday",
+        "y": 2123439.0
+      },
+      {
+        "x": "February-Monday",
+        "y": 1822219.0
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 1798258.75
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 1676511.5
+      },
+      {
+        "x": "February-Thursday",
+        "y": 1696080.75
+      },
+      {
+        "x": "February-Friday",
+        "y": 2482338.25
+      },
+      {
+        "x": "March-Monday",
+        "y": 1798970.6
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 3059365.8
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 4509961.75
+      },
+      {
+        "x": "March-Thursday",
+        "y": 2504496.25
+      },
+      {
+        "x": "March-Friday",
+        "y": 2600698.0
+      },
+      {
+        "x": "April-Monday",
+        "y": 1781988.25
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 2029704.25
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 2243544.8
+      },
+      {
+        "x": "April-Thursday",
+        "y": 1921538.6
+      },
+      {
+        "x": "April-Friday",
+        "y": 2496276.6666666665
+      },
+      {
+        "x": "May-Monday",
+        "y": 1744016.6666666667
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 2070282.25
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 2034684.5
+      },
+      {
+        "x": "May-Thursday",
+        "y": 2272007.25
+      },
+      {
+        "x": "May-Friday",
+        "y": 2224092.2
+      },
+      {
+        "x": "June-Monday",
+        "y": 3252071.0
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 3249132.4
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 3630855.75
+      },
+      {
+        "x": "June-Thursday",
+        "y": 2622243.0
+      },
+      {
+        "x": "June-Friday",
+        "y": 3047761.75
+      },
+      {
+        "x": "July-Monday",
+        "y": 2986656.0
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 3451858.5
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 3019257.6
+      },
+      {
+        "x": "July-Thursday",
+        "y": 2396014.8
+      },
+      {
+        "x": "July-Friday",
+        "y": 2974189.75
+      },
+      {
+        "x": "August-Monday",
+        "y": 3022695.0
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 3353091.25
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 2672588.0
+      },
+      {
+        "x": "August-Thursday",
+        "y": 3135453.0
+      },
+      {
+        "x": "August-Friday",
+        "y": 3681061.75
+      },
+      {
+        "x": "September-Monday",
+        "y": 3620682.0
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 3755232.4
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 3198160.8
+      },
+      {
+        "x": "September-Thursday",
+        "y": 4094421.25
+      },
+      {
+        "x": "September-Friday",
+        "y": 6350278.5
+      },
+      {
+        "x": "October-Monday",
+        "y": 3160406.75
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 2885896.5
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 5743561.5
+      },
+      {
+        "x": "October-Thursday",
+        "y": 3511246.2
+      },
+      {
+        "x": "October-Friday",
+        "y": 4276935.0
+      },
+      {
+        "x": "November-Monday",
+        "y": 2151773.8
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 1957121.75
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 1701652.75
+      },
+      {
+        "x": "November-Thursday",
+        "y": 2236497.3333333335
+      },
+      {
+        "x": "November-Friday",
+        "y": 1650775.5
+      },
+      {
+        "x": "December-Monday",
+        "y": 2860491.75
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 2403240.2
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 2106442.8
+      },
+      {
+        "x": "December-Thursday",
+        "y": 2460712.6
+      },
+      {
+        "x": "December-Friday",
+        "y": 5536707.333333333
+      }
+    ]
+  },
+  {
+    "id": "JNJ",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 7960293.333333333
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 12057264.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 9393689.0
+      },
+      {
+        "x": "January-Thursday",
+        "y": 9340780.75
+      },
+      {
+        "x": "January-Friday",
+        "y": 9595908.0
+      },
+      {
+        "x": "February-Monday",
+        "y": 8573437.333333334
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 9373928.0
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 8812831.25
+      },
+      {
+        "x": "February-Thursday",
+        "y": 13485651.5
+      },
+      {
+        "x": "February-Friday",
+        "y": 9738476.5
+      },
+      {
+        "x": "March-Monday",
+        "y": 7156331.0
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 7772821.4
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 8549433.0
+      },
+      {
+        "x": "March-Thursday",
+        "y": 8298947.5
+      },
+      {
+        "x": "March-Friday",
+        "y": 8847639.25
+      },
+      {
+        "x": "April-Monday",
+        "y": 9057229.75
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 7809935.5
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 8128630.6
+      },
+      {
+        "x": "April-Thursday",
+        "y": 7799356.8
+      },
+      {
+        "x": "April-Friday",
+        "y": 8144344.666666667
+      },
+      {
+        "x": "May-Monday",
+        "y": 7234298.0
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 7841735.25
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 7574719.75
+      },
+      {
+        "x": "May-Thursday",
+        "y": 6107727.75
+      },
+      {
+        "x": "May-Friday",
+        "y": 7192090.6
+      },
+      {
+        "x": "June-Monday",
+        "y": 7478490.6
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 7444164.2
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 7202683.0
+      },
+      {
+        "x": "June-Thursday",
+        "y": 7405593.75
+      },
+      {
+        "x": "June-Friday",
+        "y": 9240527.75
+      },
+      {
+        "x": "July-Monday",
+        "y": 6887669.25
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 7665084.25
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 7227479.2
+      },
+      {
+        "x": "July-Thursday",
+        "y": 5943361.2
+      },
+      {
+        "x": "July-Friday",
+        "y": 6940999.0
+      },
+      {
+        "x": "August-Monday",
+        "y": 10784646.4
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 8992875.25
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 8630796.75
+      },
+      {
+        "x": "August-Thursday",
+        "y": 8446881.5
+      },
+      {
+        "x": "August-Friday",
+        "y": 9136338.75
+      },
+      {
+        "x": "September-Monday",
+        "y": 9731129.0
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 11030803.6
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 8175000.6
+      },
+      {
+        "x": "September-Thursday",
+        "y": 8262870.0
+      },
+      {
+        "x": "September-Friday",
+        "y": 10845935.75
+      },
+      {
+        "x": "October-Monday",
+        "y": 8666029.5
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 9012962.0
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 8174425.25
+      },
+      {
+        "x": "October-Thursday",
+        "y": 8511417.0
+      },
+      {
+        "x": "October-Friday",
+        "y": 9164387.2
+      },
+      {
+        "x": "November-Monday",
+        "y": 6876768.2
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 5989878.0
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 6106132.5
+      },
+      {
+        "x": "November-Thursday",
+        "y": 6208755.333333333
+      },
+      {
+        "x": "November-Friday",
+        "y": 6190825.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 7572096.75
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 6929205.2
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 6425741.2
+      },
+      {
+        "x": "December-Thursday",
+        "y": 6873057.2
+      },
+      {
+        "x": "December-Friday",
+        "y": 10181820.0
+      }
+    ]
+  },
+  {
+    "id": "FB",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 21634401.666666668
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 23877610.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 31591764.0
+      },
+      {
+        "x": "January-Thursday",
+        "y": 34726963.25
+      },
+      {
+        "x": "January-Friday",
+        "y": 24073821.4
+      },
+      {
+        "x": "February-Monday",
+        "y": 27429545.333333332
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 21730147.75
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 22293754.0
+      },
+      {
+        "x": "February-Thursday",
+        "y": 27315154.25
+      },
+      {
+        "x": "February-Friday",
+        "y": 26875937.25
+      },
+      {
+        "x": "March-Monday",
+        "y": 22355611.8
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 23236559.6
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 30672745.75
+      },
+      {
+        "x": "March-Thursday",
+        "y": 29703343.75
+      },
+      {
+        "x": "March-Friday",
+        "y": 26471195.5
+      },
+      {
+        "x": "April-Monday",
+        "y": 25047205.25
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 22012102.75
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 27078812.6
+      },
+      {
+        "x": "April-Thursday",
+        "y": 30417621.2
+      },
+      {
+        "x": "April-Friday",
+        "y": 22135025.666666668
+      },
+      {
+        "x": "May-Monday",
+        "y": 18393239.666666668
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 19468339.0
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 21848274.75
+      },
+      {
+        "x": "May-Thursday",
+        "y": 23643045.25
+      },
+      {
+        "x": "May-Friday",
+        "y": 21370470.8
+      },
+      {
+        "x": "June-Monday",
+        "y": 23836104.2
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 24603108.0
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 28256678.75
+      },
+      {
+        "x": "June-Thursday",
+        "y": 23401307.0
+      },
+      {
+        "x": "June-Friday",
+        "y": 22282204.0
+      },
+      {
+        "x": "July-Monday",
+        "y": 37014626.75
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 33594273.75
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 34698764.8
+      },
+      {
+        "x": "July-Thursday",
+        "y": 35530085.0
+      },
+      {
+        "x": "July-Friday",
+        "y": 39300370.75
+      },
+      {
+        "x": "August-Monday",
+        "y": 37168438.8
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 29231786.25
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 31281292.25
+      },
+      {
+        "x": "August-Thursday",
+        "y": 36688171.25
+      },
+      {
+        "x": "August-Friday",
+        "y": 33780841.5
+      },
+      {
+        "x": "September-Monday",
+        "y": 29944247.0
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 32227999.0
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 26584699.0
+      },
+      {
+        "x": "September-Thursday",
+        "y": 27608340.75
+      },
+      {
+        "x": "September-Friday",
+        "y": 34943830.5
+      },
+      {
+        "x": "October-Monday",
+        "y": 23858303.75
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 24161467.75
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 22366968.25
+      },
+      {
+        "x": "October-Thursday",
+        "y": 26168091.4
+      },
+      {
+        "x": "October-Friday",
+        "y": 31920836.8
+      },
+      {
+        "x": "November-Monday",
+        "y": 27995410.0
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 24156365.25
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 26878429.5
+      },
+      {
+        "x": "November-Thursday",
+        "y": 36559378.0
+      },
+      {
+        "x": "November-Friday",
+        "y": 23351364.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 17374226.25
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 19345002.6
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 20668311.6
+      },
+      {
+        "x": "December-Thursday",
+        "y": 17453936.2
+      },
+      {
+        "x": "December-Friday",
+        "y": 27882215.666666668
+      }
+    ]
+  },
+  {
+    "id": "AMZN",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 3121762.6666666665
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 3412718.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 5326966.25
+      },
+      {
+        "x": "January-Thursday",
+        "y": 5381700.25
+      },
+      {
+        "x": "January-Friday",
+        "y": 7437940.6
+      },
+      {
+        "x": "February-Monday",
+        "y": 5044511.0
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 3523713.75
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 3195388.75
+      },
+      {
+        "x": "February-Thursday",
+        "y": 3919878.5
+      },
+      {
+        "x": "February-Friday",
+        "y": 3289445.75
+      },
+      {
+        "x": "March-Monday",
+        "y": 2172986.0
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 2367753.4
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 2709467.5
+      },
+      {
+        "x": "March-Thursday",
+        "y": 2587288.0
+      },
+      {
+        "x": "March-Friday",
+        "y": 2903006.75
+      },
+      {
+        "x": "April-Monday",
+        "y": 3848064.75
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 3330621.0
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 2824834.0
+      },
+      {
+        "x": "April-Thursday",
+        "y": 3595177.4
+      },
+      {
+        "x": "April-Friday",
+        "y": 7863362.333333333
+      },
+      {
+        "x": "May-Monday",
+        "y": 2351471.3333333335
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 2378408.25
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 2244012.25
+      },
+      {
+        "x": "May-Thursday",
+        "y": 2672111.5
+      },
+      {
+        "x": "May-Friday",
+        "y": 3150331.4
+      },
+      {
+        "x": "June-Monday",
+        "y": 2210708.2
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 2419579.8
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 2426735.75
+      },
+      {
+        "x": "June-Thursday",
+        "y": 2762259.5
+      },
+      {
+        "x": "June-Friday",
+        "y": 2770451.5
+      },
+      {
+        "x": "July-Monday",
+        "y": 4525853.5
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 4161346.5
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 2845027.4
+      },
+      {
+        "x": "July-Thursday",
+        "y": 4165573.8
+      },
+      {
+        "x": "July-Friday",
+        "y": 8067034.0
+      },
+      {
+        "x": "August-Monday",
+        "y": 4262347.2
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 3340465.25
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 3891056.0
+      },
+      {
+        "x": "August-Thursday",
+        "y": 4309546.75
+      },
+      {
+        "x": "August-Friday",
+        "y": 3854297.0
+      },
+      {
+        "x": "September-Monday",
+        "y": 3928074.0
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 3768076.0
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 3294134.0
+      },
+      {
+        "x": "September-Thursday",
+        "y": 3349031.0
+      },
+      {
+        "x": "September-Friday",
+        "y": 4027861.25
+      },
+      {
+        "x": "October-Monday",
+        "y": 3703149.25
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 3904727.0
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 3670500.5
+      },
+      {
+        "x": "October-Thursday",
+        "y": 5011471.0
+      },
+      {
+        "x": "October-Friday",
+        "y": 5403596.2
+      },
+      {
+        "x": "November-Monday",
+        "y": 4875893.0
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 3899163.25
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 4348867.0
+      },
+      {
+        "x": "November-Thursday",
+        "y": 4571246.666666667
+      },
+      {
+        "x": "November-Friday",
+        "y": 4054044.25
+      },
+      {
+        "x": "December-Monday",
+        "y": 3782135.5
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 4311853.2
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 3927618.6
+      },
+      {
+        "x": "December-Thursday",
+        "y": 3408876.6
+      },
+      {
+        "x": "December-Friday",
+        "y": 5616840.0
+      }
+    ]
+  },
+  {
+    "id": "GOOGL",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 2154206.6666666665
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 2520790.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 2273675.0
+      },
+      {
+        "x": "January-Thursday",
+        "y": 3243291.0
+      },
+      {
+        "x": "January-Friday",
+        "y": 2845973.2
+      },
+      {
+        "x": "February-Monday",
+        "y": 2309941.3333333335
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 2026154.0
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 1802537.0
+      },
+      {
+        "x": "February-Thursday",
+        "y": 2082881.0
+      },
+      {
+        "x": "February-Friday",
+        "y": 2461053.5
+      },
+      {
+        "x": "March-Monday",
+        "y": 1657667.6
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 2335866.0
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 2085995.0
+      },
+      {
+        "x": "March-Thursday",
+        "y": 1825264.0
+      },
+      {
+        "x": "March-Friday",
+        "y": 1898660.0
+      },
+      {
+        "x": "April-Monday",
+        "y": 1870335.0
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 1760604.75
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 1796775.4
+      },
+      {
+        "x": "April-Thursday",
+        "y": 2372717.0
+      },
+      {
+        "x": "April-Friday",
+        "y": 2791773.3333333335
+      },
+      {
+        "x": "May-Monday",
+        "y": 1397043.6666666667
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 1855130.75
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 1611961.75
+      },
+      {
+        "x": "May-Thursday",
+        "y": 1516220.75
+      },
+      {
+        "x": "May-Friday",
+        "y": 1659475.4
+      },
+      {
+        "x": "June-Monday",
+        "y": 1602036.4
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 1603059.0
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 1379872.25
+      },
+      {
+        "x": "June-Thursday",
+        "y": 1507937.5
+      },
+      {
+        "x": "June-Friday",
+        "y": 1910366.5
+      },
+      {
+        "x": "July-Monday",
+        "y": 2852797.5
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 2729941.25
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 2197432.0
+      },
+      {
+        "x": "July-Thursday",
+        "y": 2863706.8
+      },
+      {
+        "x": "July-Friday",
+        "y": 5226779.25
+      },
+      {
+        "x": "August-Monday",
+        "y": 2592109.4
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 2940108.5
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 2910399.75
+      },
+      {
+        "x": "August-Thursday",
+        "y": 2422336.25
+      },
+      {
+        "x": "August-Friday",
+        "y": 2323202.5
+      },
+      {
+        "x": "September-Monday",
+        "y": 1937895.6666666667
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 2225879.8
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 1850185.6
+      },
+      {
+        "x": "September-Thursday",
+        "y": 1860821.75
+      },
+      {
+        "x": "September-Friday",
+        "y": 2455201.75
+      },
+      {
+        "x": "October-Monday",
+        "y": 1794917.25
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 2210095.5
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 1842711.0
+      },
+      {
+        "x": "October-Thursday",
+        "y": 2541218.6
+      },
+      {
+        "x": "October-Friday",
+        "y": 2839370.4
+      },
+      {
+        "x": "November-Monday",
+        "y": 1943903.2
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 1909793.25
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 1795475.0
+      },
+      {
+        "x": "November-Thursday",
+        "y": 1816927.3333333333
+      },
+      {
+        "x": "November-Friday",
+        "y": 1895706.5
+      },
+      {
+        "x": "December-Monday",
+        "y": 1959982.5
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 1956343.8
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 2057068.8
+      },
+      {
+        "x": "December-Thursday",
+        "y": 1540934.8
+      },
+      {
+        "x": "December-Friday",
+        "y": 2679621.3333333335
+      }
+    ]
+  },
+  {
+    "id": "BA",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 4159309.6666666665
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 4213339.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 6095002.0
+      },
+      {
+        "x": "January-Thursday",
+        "y": 7132856.5
+      },
+      {
+        "x": "January-Friday",
+        "y": 5371311.2
+      },
+      {
+        "x": "February-Monday",
+        "y": 6539931.0
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 4506760.25
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 4139855.5
+      },
+      {
+        "x": "February-Thursday",
+        "y": 4196060.25
+      },
+      {
+        "x": "February-Friday",
+        "y": 5377712.25
+      },
+      {
+        "x": "March-Monday",
+        "y": 3513033.0
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 4342988.0
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 3917520.25
+      },
+      {
+        "x": "March-Thursday",
+        "y": 3114625.25
+      },
+      {
+        "x": "March-Friday",
+        "y": 3547488.5
+      },
+      {
+        "x": "April-Monday",
+        "y": 3543646.75
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 3817806.0
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 4769811.4
+      },
+      {
+        "x": "April-Thursday",
+        "y": 3693098.0
+      },
+      {
+        "x": "April-Friday",
+        "y": 4245422.0
+      },
+      {
+        "x": "May-Monday",
+        "y": 5033230.333333333
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 3262451.25
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 3233553.5
+      },
+      {
+        "x": "May-Thursday",
+        "y": 3535893.75
+      },
+      {
+        "x": "May-Friday",
+        "y": 4814077.8
+      },
+      {
+        "x": "June-Monday",
+        "y": 3024677.6
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 3276762.6
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 3326167.25
+      },
+      {
+        "x": "June-Thursday",
+        "y": 3010960.75
+      },
+      {
+        "x": "June-Friday",
+        "y": 3399147.0
+      },
+      {
+        "x": "July-Monday",
+        "y": 2708978.25
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 3917106.5
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 3759595.8
+      },
+      {
+        "x": "July-Thursday",
+        "y": 2774589.2
+      },
+      {
+        "x": "July-Friday",
+        "y": 2734350.75
+      },
+      {
+        "x": "August-Monday",
+        "y": 4784553.0
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 3475797.5
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 4176505.5
+      },
+      {
+        "x": "August-Thursday",
+        "y": 4983200.75
+      },
+      {
+        "x": "August-Friday",
+        "y": 4580417.5
+      },
+      {
+        "x": "September-Monday",
+        "y": 2984815.3333333335
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 3887858.4
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 3992089.4
+      },
+      {
+        "x": "September-Thursday",
+        "y": 3753561.0
+      },
+      {
+        "x": "September-Friday",
+        "y": 4456716.5
+      },
+      {
+        "x": "October-Monday",
+        "y": 3423690.25
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 3253152.5
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 6353978.5
+      },
+      {
+        "x": "October-Thursday",
+        "y": 4426056.0
+      },
+      {
+        "x": "October-Friday",
+        "y": 3577750.4
+      },
+      {
+        "x": "November-Monday",
+        "y": 2846832.0
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 2664627.5
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 2328225.75
+      },
+      {
+        "x": "November-Thursday",
+        "y": 2944661.3333333335
+      },
+      {
+        "x": "November-Friday",
+        "y": 2462471.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 3496461.25
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 3819136.6
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 3212385.8
+      },
+      {
+        "x": "December-Thursday",
+        "y": 2605180.8
+      },
+      {
+        "x": "December-Friday",
+        "y": 5830411.333333333
+      }
+    ]
+  },
+  {
+    "id": "BRK_A",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 285.3333333333333
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 427.5
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 458.75
+      },
+      {
+        "x": "January-Thursday",
+        "y": 379.75
+      },
+      {
+        "x": "January-Friday",
+        "y": 248.4
+      },
+      {
+        "x": "February-Monday",
+        "y": 249.0
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 221.75
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 173.25
+      },
+      {
+        "x": "February-Thursday",
+        "y": 282.5
+      },
+      {
+        "x": "February-Friday",
+        "y": 265.75
+      },
+      {
+        "x": "March-Monday",
+        "y": 326.0
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 419.0
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 398.25
+      },
+      {
+        "x": "March-Thursday",
+        "y": 319.0
+      },
+      {
+        "x": "March-Friday",
+        "y": 342.0
+      },
+      {
+        "x": "April-Monday",
+        "y": 274.75
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 275.0
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 279.2
+      },
+      {
+        "x": "April-Thursday",
+        "y": 277.6
+      },
+      {
+        "x": "April-Friday",
+        "y": 283.0
+      },
+      {
+        "x": "May-Monday",
+        "y": 256.6666666666667
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 233.25
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 183.5
+      },
+      {
+        "x": "May-Thursday",
+        "y": 126.5
+      },
+      {
+        "x": "May-Friday",
+        "y": 320.8
+      },
+      {
+        "x": "June-Monday",
+        "y": 249.6
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 225.2
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 172.75
+      },
+      {
+        "x": "June-Thursday",
+        "y": 223.0
+      },
+      {
+        "x": "June-Friday",
+        "y": 195.25
+      },
+      {
+        "x": "July-Monday",
+        "y": 230.5
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 274.5
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 270.4
+      },
+      {
+        "x": "July-Thursday",
+        "y": 251.4
+      },
+      {
+        "x": "July-Friday",
+        "y": 188.25
+      },
+      {
+        "x": "August-Monday",
+        "y": 399.4
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 316.75
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 365.25
+      },
+      {
+        "x": "August-Thursday",
+        "y": 262.0
+      },
+      {
+        "x": "August-Friday",
+        "y": 368.75
+      },
+      {
+        "x": "September-Monday",
+        "y": 387.6666666666667
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 385.0
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 260.6
+      },
+      {
+        "x": "September-Thursday",
+        "y": 238.5
+      },
+      {
+        "x": "September-Friday",
+        "y": 443.5
+      },
+      {
+        "x": "October-Monday",
+        "y": 190.0
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 190.25
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 249.0
+      },
+      {
+        "x": "October-Thursday",
+        "y": 309.2
+      },
+      {
+        "x": "October-Friday",
+        "y": 231.2
+      },
+      {
+        "x": "November-Monday",
+        "y": 241.8
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 260.0
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 197.0
+      },
+      {
+        "x": "November-Thursday",
+        "y": 255.66666666666666
+      },
+      {
+        "x": "November-Friday",
+        "y": 234.25
+      },
+      {
+        "x": "December-Monday",
+        "y": 329.5
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 406.0
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 374.6
+      },
+      {
+        "x": "December-Thursday",
+        "y": 246.4
+      },
+      {
+        "x": "December-Friday",
+        "y": 461.3333333333333
+      }
+    ]
+  },
+  {
+    "id": "NVDA",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 4349371.333333333
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 5829630.25
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 5591106.25
+      },
+      {
+        "x": "January-Thursday",
+        "y": 5423658.0
+      },
+      {
+        "x": "January-Friday",
+        "y": 4609973.8
+      },
+      {
+        "x": "February-Monday",
+        "y": 5488420.0
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 4764641.75
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 4982043.25
+      },
+      {
+        "x": "February-Thursday",
+        "y": 7122785.0
+      },
+      {
+        "x": "February-Friday",
+        "y": 5224078.75
+      },
+      {
+        "x": "March-Monday",
+        "y": 7200574.2
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 8376285.6
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 9033471.5
+      },
+      {
+        "x": "March-Thursday",
+        "y": 8454385.25
+      },
+      {
+        "x": "March-Friday",
+        "y": 8731566.5
+      },
+      {
+        "x": "April-Monday",
+        "y": 7704173.0
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 6869848.0
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 6716673.8
+      },
+      {
+        "x": "April-Thursday",
+        "y": 6025704.6
+      },
+      {
+        "x": "April-Friday",
+        "y": 6611036.0
+      },
+      {
+        "x": "May-Monday",
+        "y": 8915320.0
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 7470422.0
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 7838508.25
+      },
+      {
+        "x": "May-Thursday",
+        "y": 8718509.5
+      },
+      {
+        "x": "May-Friday",
+        "y": 10835621.6
+      },
+      {
+        "x": "June-Monday",
+        "y": 9639900.6
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 7340308.2
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 7919767.5
+      },
+      {
+        "x": "June-Thursday",
+        "y": 7853924.75
+      },
+      {
+        "x": "June-Friday",
+        "y": 8837491.25
+      },
+      {
+        "x": "July-Monday",
+        "y": 5050495.75
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 7446874.75
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 7451497.6
+      },
+      {
+        "x": "July-Thursday",
+        "y": 5731700.4
+      },
+      {
+        "x": "July-Friday",
+        "y": 5276833.75
+      },
+      {
+        "x": "August-Monday",
+        "y": 11174754.0
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 10030472.0
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 9266145.25
+      },
+      {
+        "x": "August-Thursday",
+        "y": 11395362.0
+      },
+      {
+        "x": "August-Friday",
+        "y": 14521925.75
+      },
+      {
+        "x": "September-Monday",
+        "y": 7185448.666666667
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 7644629.2
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 7585486.0
+      },
+      {
+        "x": "September-Thursday",
+        "y": 7942408.5
+      },
+      {
+        "x": "September-Friday",
+        "y": 8035594.0
+      },
+      {
+        "x": "October-Monday",
+        "y": 7823503.25
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 7662222.25
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 9537864.0
+      },
+      {
+        "x": "October-Thursday",
+        "y": 10547317.4
+      },
+      {
+        "x": "October-Friday",
+        "y": 9703613.6
+      },
+      {
+        "x": "November-Monday",
+        "y": 7983652.2
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 8634395.5
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 9693140.5
+      },
+      {
+        "x": "November-Thursday",
+        "y": 8532931.333333334
+      },
+      {
+        "x": "November-Friday",
+        "y": 11199766.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 6476100.0
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 6824760.2
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 6030691.6
+      },
+      {
+        "x": "December-Thursday",
+        "y": 4691961.0
+      },
+      {
+        "x": "December-Friday",
+        "y": 9016462.0
+      }
+    ]
+  },
+  {
+    "id": "BRK_B",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 4183334.6666666665
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 3826521.75
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 5002062.25
+      },
+      {
+        "x": "January-Thursday",
+        "y": 4382736.75
+      },
+      {
+        "x": "January-Friday",
+        "y": 4086865.2
+      },
+      {
+        "x": "February-Monday",
+        "y": 3774532.6666666665
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 3402513.5
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 2799539.25
+      },
+      {
+        "x": "February-Thursday",
+        "y": 3000265.75
+      },
+      {
+        "x": "February-Friday",
+        "y": 3993252.0
+      },
+      {
+        "x": "March-Monday",
+        "y": 3551451.0
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 3634285.2
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 3406842.25
+      },
+      {
+        "x": "March-Thursday",
+        "y": 3108710.25
+      },
+      {
+        "x": "March-Friday",
+        "y": 4189977.25
+      },
+      {
+        "x": "April-Monday",
+        "y": 2619297.0
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 2815693.0
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 3369730.4
+      },
+      {
+        "x": "April-Thursday",
+        "y": 2807193.6
+      },
+      {
+        "x": "April-Friday",
+        "y": 3074349.0
+      },
+      {
+        "x": "May-Monday",
+        "y": 3435717.3333333335
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 2937496.25
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 2614568.0
+      },
+      {
+        "x": "May-Thursday",
+        "y": 2558763.25
+      },
+      {
+        "x": "May-Friday",
+        "y": 3265847.6
+      },
+      {
+        "x": "June-Monday",
+        "y": 3495756.4
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 2971352.2
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 2608372.0
+      },
+      {
+        "x": "June-Thursday",
+        "y": 3251245.5
+      },
+      {
+        "x": "June-Friday",
+        "y": 4158491.25
+      },
+      {
+        "x": "July-Monday",
+        "y": 2867970.5
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 3356371.75
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 3003157.8
+      },
+      {
+        "x": "July-Thursday",
+        "y": 2783829.2
+      },
+      {
+        "x": "July-Friday",
+        "y": 3048640.75
+      },
+      {
+        "x": "August-Monday",
+        "y": 5799403.2
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 4526138.25
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 4687655.25
+      },
+      {
+        "x": "August-Thursday",
+        "y": 3859086.5
+      },
+      {
+        "x": "August-Friday",
+        "y": 4587593.0
+      },
+      {
+        "x": "September-Monday",
+        "y": 4402340.0
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 4635654.8
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 3845913.6
+      },
+      {
+        "x": "September-Thursday",
+        "y": 4146717.25
+      },
+      {
+        "x": "September-Friday",
+        "y": 7030001.25
+      },
+      {
+        "x": "October-Monday",
+        "y": 2547836.0
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 3000872.75
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 3050650.75
+      },
+      {
+        "x": "October-Thursday",
+        "y": 3391655.4
+      },
+      {
+        "x": "October-Friday",
+        "y": 3769508.0
+      },
+      {
+        "x": "November-Monday",
+        "y": 3733216.8
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 2798015.0
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 2644582.0
+      },
+      {
+        "x": "November-Thursday",
+        "y": 3002240.6666666665
+      },
+      {
+        "x": "November-Friday",
+        "y": 2871257.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 3476034.25
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 3880957.4
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 3773787.8
+      },
+      {
+        "x": "December-Thursday",
+        "y": 3242009.2
+      },
+      {
+        "x": "December-Friday",
+        "y": 6586776.0
+      }
+    ]
+  },
+  {
+    "id": "WMT",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 6339276.666666667
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 7574637.5
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 8640749.5
+      },
+      {
+        "x": "January-Thursday",
+        "y": 8940705.0
+      },
+      {
+        "x": "January-Friday",
+        "y": 7845013.4
+      },
+      {
+        "x": "February-Monday",
+        "y": 6371275.0
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 6074996.5
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 6904898.0
+      },
+      {
+        "x": "February-Thursday",
+        "y": 9140647.25
+      },
+      {
+        "x": "February-Friday",
+        "y": 7732979.75
+      },
+      {
+        "x": "March-Monday",
+        "y": 5891636.8
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 5701353.2
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 7315922.0
+      },
+      {
+        "x": "March-Thursday",
+        "y": 6675565.5
+      },
+      {
+        "x": "March-Friday",
+        "y": 7142474.5
+      },
+      {
+        "x": "April-Monday",
+        "y": 6591896.25
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 5808211.0
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 7176651.0
+      },
+      {
+        "x": "April-Thursday",
+        "y": 6796312.6
+      },
+      {
+        "x": "April-Friday",
+        "y": 8048228.333333333
+      },
+      {
+        "x": "May-Monday",
+        "y": 6231674.666666667
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 11833608.5
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 7857182.25
+      },
+      {
+        "x": "May-Thursday",
+        "y": 5872456.0
+      },
+      {
+        "x": "May-Friday",
+        "y": 6030221.4
+      },
+      {
+        "x": "June-Monday",
+        "y": 7496318.2
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 7865491.0
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 7587963.5
+      },
+      {
+        "x": "June-Thursday",
+        "y": 7516392.5
+      },
+      {
+        "x": "June-Friday",
+        "y": 9830739.25
+      },
+      {
+        "x": "July-Monday",
+        "y": 6975995.0
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 8242996.75
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 7006562.4
+      },
+      {
+        "x": "July-Thursday",
+        "y": 5874206.2
+      },
+      {
+        "x": "July-Friday",
+        "y": 6284844.75
+      },
+      {
+        "x": "August-Monday",
+        "y": 9833788.0
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 12203605.75
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 11953413.0
+      },
+      {
+        "x": "August-Thursday",
+        "y": 9448207.25
+      },
+      {
+        "x": "August-Friday",
+        "y": 10937933.25
+      },
+      {
+        "x": "September-Monday",
+        "y": 7778832.333333333
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 10880441.4
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 7676008.0
+      },
+      {
+        "x": "September-Thursday",
+        "y": 9284181.0
+      },
+      {
+        "x": "September-Friday",
+        "y": 9335275.25
+      },
+      {
+        "x": "October-Monday",
+        "y": 10147446.25
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 9300856.0
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 28241964.5
+      },
+      {
+        "x": "October-Thursday",
+        "y": 17498994.6
+      },
+      {
+        "x": "October-Friday",
+        "y": 13774472.4
+      },
+      {
+        "x": "November-Monday",
+        "y": 11595913.4
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 13746112.75
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 10360357.0
+      },
+      {
+        "x": "November-Thursday",
+        "y": 9990909.333333334
+      },
+      {
+        "x": "November-Friday",
+        "y": 10050377.25
+      },
+      {
+        "x": "December-Monday",
+        "y": 10296200.75
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 10868322.2
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 9152524.4
+      },
+      {
+        "x": "December-Thursday",
+        "y": 9847442.2
+      },
+      {
+        "x": "December-Friday",
+        "y": 12137819.666666666
+      }
+    ]
+  },
+  {
+    "id": "NFLX",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 2494222.6666666665
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 3568966.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 4327508.75
+      },
+      {
+        "x": "January-Thursday",
+        "y": 2491079.75
+      },
+      {
+        "x": "January-Friday",
+        "y": 2362752.2
+      },
+      {
+        "x": "February-Monday",
+        "y": 1438182.0
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 1753728.5
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 1556462.0
+      },
+      {
+        "x": "February-Thursday",
+        "y": 1571860.75
+      },
+      {
+        "x": "February-Friday",
+        "y": 1528769.5
+      },
+      {
+        "x": "March-Monday",
+        "y": 2196870.2
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 2141117.8
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 2503732.75
+      },
+      {
+        "x": "March-Thursday",
+        "y": 1906865.75
+      },
+      {
+        "x": "March-Friday",
+        "y": 1876546.75
+      },
+      {
+        "x": "April-Monday",
+        "y": 3613595.5
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 2263282.25
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 2889315.4
+      },
+      {
+        "x": "April-Thursday",
+        "y": 4316372.4
+      },
+      {
+        "x": "April-Friday",
+        "y": 4367557.0
+      },
+      {
+        "x": "May-Monday",
+        "y": 2221972.0
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 2420367.25
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 1640134.75
+      },
+      {
+        "x": "May-Thursday",
+        "y": 1418136.25
+      },
+      {
+        "x": "May-Friday",
+        "y": 2284725.6
+      },
+      {
+        "x": "June-Monday",
+        "y": 2326785.4
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 2231540.6
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 5371546.0
+      },
+      {
+        "x": "June-Thursday",
+        "y": 3117289.0
+      },
+      {
+        "x": "June-Friday",
+        "y": 2572595.25
+      },
+      {
+        "x": "July-Monday",
+        "y": 10102505.5
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 7785688.5
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 10410102.4
+      },
+      {
+        "x": "July-Thursday",
+        "y": 17993236.6
+      },
+      {
+        "x": "July-Friday",
+        "y": 13175506.5
+      },
+      {
+        "x": "August-Monday",
+        "y": 21952153.6
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 22063211.75
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 21748191.75
+      },
+      {
+        "x": "August-Thursday",
+        "y": 26275633.0
+      },
+      {
+        "x": "August-Friday",
+        "y": 19874221.25
+      },
+      {
+        "x": "September-Monday",
+        "y": 16780847.0
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 27234335.0
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 25998663.6
+      },
+      {
+        "x": "September-Thursday",
+        "y": 24417660.0
+      },
+      {
+        "x": "September-Friday",
+        "y": 20591891.0
+      },
+      {
+        "x": "October-Monday",
+        "y": 18995493.0
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 16940109.25
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 18103640.25
+      },
+      {
+        "x": "October-Thursday",
+        "y": 26274278.8
+      },
+      {
+        "x": "October-Friday",
+        "y": 19782757.4
+      },
+      {
+        "x": "November-Monday",
+        "y": 15485276.2
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 18739344.75
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 15719604.75
+      },
+      {
+        "x": "November-Thursday",
+        "y": 16878779.333333332
+      },
+      {
+        "x": "November-Friday",
+        "y": 13594627.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 15545371.75
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 12150030.0
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 14509902.0
+      },
+      {
+        "x": "December-Thursday",
+        "y": 14044132.4
+      },
+      {
+        "x": "December-Friday",
+        "y": 18101262.0
+      }
+    ]
+  },
+  {
+    "id": "GM",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 12567968.0
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 16698136.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 19625691.0
+      },
+      {
+        "x": "January-Thursday",
+        "y": 16159150.75
+      },
+      {
+        "x": "January-Friday",
+        "y": 15031216.4
+      },
+      {
+        "x": "February-Monday",
+        "y": 14721260.666666666
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 20071349.0
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 22896293.0
+      },
+      {
+        "x": "February-Thursday",
+        "y": 14719248.5
+      },
+      {
+        "x": "February-Friday",
+        "y": 12712930.5
+      },
+      {
+        "x": "March-Monday",
+        "y": 13399991.8
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 13702522.6
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 13783647.25
+      },
+      {
+        "x": "March-Thursday",
+        "y": 11418855.25
+      },
+      {
+        "x": "March-Friday",
+        "y": 13543733.75
+      },
+      {
+        "x": "April-Monday",
+        "y": 13977564.75
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 25299757.5
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 17147353.6
+      },
+      {
+        "x": "April-Thursday",
+        "y": 20356323.6
+      },
+      {
+        "x": "April-Friday",
+        "y": 17463394.333333332
+      },
+      {
+        "x": "May-Monday",
+        "y": 10378832.333333334
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 11877611.75
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 11313840.0
+      },
+      {
+        "x": "May-Thursday",
+        "y": 15189635.5
+      },
+      {
+        "x": "May-Friday",
+        "y": 12662716.2
+      },
+      {
+        "x": "June-Monday",
+        "y": 14832295.8
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 11335976.8
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 12858581.25
+      },
+      {
+        "x": "June-Thursday",
+        "y": 14357627.5
+      },
+      {
+        "x": "June-Friday",
+        "y": 15565618.75
+      },
+      {
+        "x": "July-Monday",
+        "y": 16434712.0
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 19018543.0
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 21131955.2
+      },
+      {
+        "x": "July-Thursday",
+        "y": 22118288.8
+      },
+      {
+        "x": "July-Friday",
+        "y": 15958324.25
+      },
+      {
+        "x": "August-Monday",
+        "y": 18109934.6
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 17170800.0
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 19799045.0
+      },
+      {
+        "x": "August-Thursday",
+        "y": 20461715.75
+      },
+      {
+        "x": "August-Friday",
+        "y": 16970068.75
+      },
+      {
+        "x": "September-Monday",
+        "y": 16664165.666666666
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 18502580.0
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 14771379.6
+      },
+      {
+        "x": "September-Thursday",
+        "y": 16626295.75
+      },
+      {
+        "x": "September-Friday",
+        "y": 18308670.0
+      },
+      {
+        "x": "October-Monday",
+        "y": 12567048.75
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 13346198.25
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 18660666.0
+      },
+      {
+        "x": "October-Thursday",
+        "y": 15362318.2
+      },
+      {
+        "x": "October-Friday",
+        "y": 13842250.6
+      },
+      {
+        "x": "November-Monday",
+        "y": 12033299.0
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 11731183.25
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 10406463.5
+      },
+      {
+        "x": "November-Thursday",
+        "y": 9363531.0
+      },
+      {
+        "x": "November-Friday",
+        "y": 8786369.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 10815694.0
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 10938250.6
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 9937419.8
+      },
+      {
+        "x": "December-Thursday",
+        "y": 8758404.4
+      },
+      {
+        "x": "December-Friday",
+        "y": 15716836.666666666
+      }
+    ]
+  },
+  {
+    "id": "CSCO",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 28826361.333333332
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 40791610.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 29686364.5
+      },
+      {
+        "x": "January-Thursday",
+        "y": 37004539.25
+      },
+      {
+        "x": "January-Friday",
+        "y": 28616380.6
+      },
+      {
+        "x": "February-Monday",
+        "y": 25708249.333333332
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 25747825.25
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 28945390.25
+      },
+      {
+        "x": "February-Thursday",
+        "y": 46942595.0
+      },
+      {
+        "x": "February-Friday",
+        "y": 32815032.5
+      },
+      {
+        "x": "March-Monday",
+        "y": 27376699.8
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 26790029.6
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 30024162.75
+      },
+      {
+        "x": "March-Thursday",
+        "y": 29468061.5
+      },
+      {
+        "x": "March-Friday",
+        "y": 30409789.0
+      },
+      {
+        "x": "April-Monday",
+        "y": 21911859.5
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 21107549.5
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 22846645.6
+      },
+      {
+        "x": "April-Thursday",
+        "y": 22963968.2
+      },
+      {
+        "x": "April-Friday",
+        "y": 29561596.0
+      },
+      {
+        "x": "May-Monday",
+        "y": 22494119.333333332
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 24757030.0
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 26301692.5
+      },
+      {
+        "x": "May-Thursday",
+        "y": 29591649.25
+      },
+      {
+        "x": "May-Friday",
+        "y": 25056683.0
+      },
+      {
+        "x": "June-Monday",
+        "y": 24106311.4
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 20144303.2
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 22174511.75
+      },
+      {
+        "x": "June-Thursday",
+        "y": 22480950.25
+      },
+      {
+        "x": "June-Friday",
+        "y": 26833829.5
+      },
+      {
+        "x": "July-Monday",
+        "y": 23468199.0
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 23454192.25
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 24802420.2
+      },
+      {
+        "x": "July-Thursday",
+        "y": 21676940.0
+      },
+      {
+        "x": "July-Friday",
+        "y": 25043978.25
+      },
+      {
+        "x": "August-Monday",
+        "y": 31302035.4
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 29197625.75
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 36471269.75
+      },
+      {
+        "x": "August-Thursday",
+        "y": 38922963.5
+      },
+      {
+        "x": "August-Friday",
+        "y": 29087856.5
+      },
+      {
+        "x": "September-Monday",
+        "y": 22477582.333333332
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 24503711.8
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 24814864.2
+      },
+      {
+        "x": "September-Thursday",
+        "y": 28847649.5
+      },
+      {
+        "x": "September-Friday",
+        "y": 31517921.5
+      },
+      {
+        "x": "October-Monday",
+        "y": 21459186.5
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 22383372.25
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 23202373.75
+      },
+      {
+        "x": "October-Thursday",
+        "y": 23462132.6
+      },
+      {
+        "x": "October-Friday",
+        "y": 25079159.0
+      },
+      {
+        "x": "November-Monday",
+        "y": 31029938.2
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 30128127.0
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 27669905.5
+      },
+      {
+        "x": "November-Thursday",
+        "y": 29180634.0
+      },
+      {
+        "x": "November-Friday",
+        "y": 39174694.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 20635750.25
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 23144335.2
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 21092236.8
+      },
+      {
+        "x": "December-Thursday",
+        "y": 19844440.6
+      },
+      {
+        "x": "December-Friday",
+        "y": 33057378.333333332
+      }
+    ]
+  },
+  {
+    "id": "TSLA",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 4851093.0
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 4505865.5
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 5455723.5
+      },
+      {
+        "x": "January-Thursday",
+        "y": 4081011.0
+      },
+      {
+        "x": "January-Friday",
+        "y": 3879530.6
+      },
+      {
+        "x": "February-Monday",
+        "y": 5373794.666666667
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 5199998.25
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 4924399.25
+      },
+      {
+        "x": "February-Thursday",
+        "y": 7699889.25
+      },
+      {
+        "x": "February-Friday",
+        "y": 4824776.75
+      },
+      {
+        "x": "March-Monday",
+        "y": 6601742.8
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 4716500.2
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 4937039.5
+      },
+      {
+        "x": "March-Thursday",
+        "y": 5407377.25
+      },
+      {
+        "x": "March-Friday",
+        "y": 6255287.5
+      },
+      {
+        "x": "April-Monday",
+        "y": 7611479.75
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 4222936.75
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 4769846.0
+      },
+      {
+        "x": "April-Thursday",
+        "y": 3758538.6
+      },
+      {
+        "x": "April-Friday",
+        "y": 2988481.6666666665
+      },
+      {
+        "x": "May-Monday",
+        "y": 4486690.0
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 4833303.75
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 4468716.75
+      },
+      {
+        "x": "May-Thursday",
+        "y": 4492442.75
+      },
+      {
+        "x": "May-Friday",
+        "y": 4097972.0
+      },
+      {
+        "x": "June-Monday",
+        "y": 3549643.4
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 2737677.2
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 3290292.75
+      },
+      {
+        "x": "June-Thursday",
+        "y": 2532395.0
+      },
+      {
+        "x": "June-Friday",
+        "y": 2686452.0
+      },
+      {
+        "x": "July-Monday",
+        "y": 4188724.5
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 4504315.25
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 3247795.4
+      },
+      {
+        "x": "July-Thursday",
+        "y": 3275153.4
+      },
+      {
+        "x": "July-Friday",
+        "y": 3168501.75
+      },
+      {
+        "x": "August-Monday",
+        "y": 5639568.2
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 3784949.5
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 4276134.75
+      },
+      {
+        "x": "August-Thursday",
+        "y": 7968663.0
+      },
+      {
+        "x": "August-Friday",
+        "y": 5385526.75
+      },
+      {
+        "x": "September-Monday",
+        "y": 4630936.0
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 3778793.8
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 3983527.4
+      },
+      {
+        "x": "September-Thursday",
+        "y": 3484449.75
+      },
+      {
+        "x": "September-Friday",
+        "y": 3394113.25
+      },
+      {
+        "x": "October-Monday",
+        "y": 3356375.25
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 7206732.0
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 4207617.25
+      },
+      {
+        "x": "October-Thursday",
+        "y": 3636120.8
+      },
+      {
+        "x": "October-Friday",
+        "y": 4718241.6
+      },
+      {
+        "x": "November-Monday",
+        "y": 3178042.2
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 4394528.0
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 5719212.75
+      },
+      {
+        "x": "November-Thursday",
+        "y": 3305706.0
+      },
+      {
+        "x": "November-Friday",
+        "y": 3056423.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 2457554.75
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 2606760.0
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 3279292.4
+      },
+      {
+        "x": "December-Thursday",
+        "y": 2347041.8
+      },
+      {
+        "x": "December-Friday",
+        "y": 2952166.3333333335
+      }
+    ]
+  },
+  {
+    "id": "MSFT",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 35283760.666666664
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 69261067.0
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 45605465.5
+      },
+      {
+        "x": "January-Thursday",
+        "y": 40469822.25
+      },
+      {
+        "x": "January-Friday",
+        "y": 38308264.2
+      },
+      {
+        "x": "February-Monday",
+        "y": 38084115.666666664
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 35180155.0
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 34187199.5
+      },
+      {
+        "x": "February-Thursday",
+        "y": 31594437.0
+      },
+      {
+        "x": "February-Friday",
+        "y": 34602578.5
+      },
+      {
+        "x": "March-Monday",
+        "y": 32120241.2
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 32596459.4
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 36407171.0
+      },
+      {
+        "x": "March-Thursday",
+        "y": 38640184.0
+      },
+      {
+        "x": "March-Friday",
+        "y": 50140604.25
+      },
+      {
+        "x": "April-Monday",
+        "y": 43701572.25
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 34949594.75
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 32366235.2
+      },
+      {
+        "x": "April-Thursday",
+        "y": 39351195.2
+      },
+      {
+        "x": "April-Friday",
+        "y": 67114425.0
+      },
+      {
+        "x": "May-Monday",
+        "y": 27595134.333333332
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 34613532.0
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 34750297.75
+      },
+      {
+        "x": "May-Thursday",
+        "y": 26911727.5
+      },
+      {
+        "x": "May-Friday",
+        "y": 33037023.6
+      },
+      {
+        "x": "June-Monday",
+        "y": 27722656.8
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 26963309.2
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 30003630.25
+      },
+      {
+        "x": "June-Thursday",
+        "y": 27091902.0
+      },
+      {
+        "x": "June-Friday",
+        "y": 40760345.25
+      },
+      {
+        "x": "July-Monday",
+        "y": 30386403.75
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 34106733.5
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 38971542.8
+      },
+      {
+        "x": "July-Thursday",
+        "y": 30832050.2
+      },
+      {
+        "x": "July-Friday",
+        "y": 29616897.0
+      },
+      {
+        "x": "August-Monday",
+        "y": 38300164.8
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 39208004.75
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 37957905.75
+      },
+      {
+        "x": "August-Thursday",
+        "y": 34294169.75
+      },
+      {
+        "x": "August-Friday",
+        "y": 34734062.25
+      },
+      {
+        "x": "September-Monday",
+        "y": 25644317.333333332
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 34378065.6
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 28966219.2
+      },
+      {
+        "x": "September-Thursday",
+        "y": 30081400.75
+      },
+      {
+        "x": "September-Friday",
+        "y": 39199896.75
+      },
+      {
+        "x": "October-Monday",
+        "y": 37039814.25
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 32325191.5
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 31168680.25
+      },
+      {
+        "x": "October-Thursday",
+        "y": 35291818.0
+      },
+      {
+        "x": "October-Friday",
+        "y": 55747364.2
+      },
+      {
+        "x": "November-Monday",
+        "y": 35888116.4
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 37006856.25
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 31079821.5
+      },
+      {
+        "x": "November-Thursday",
+        "y": 31659602.666666668
+      },
+      {
+        "x": "November-Friday",
+        "y": 28964029.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 34355218.5
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 33745489.4
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 34027145.0
+      },
+      {
+        "x": "December-Thursday",
+        "y": 29717726.2
+      },
+      {
+        "x": "December-Friday",
+        "y": 56065774.333333336
+      }
+    ]
+  },
+  {
+    "id": "INTC",
+    "data": [
+      {
+        "x": "January-Monday",
+        "y": 31030858.0
+      },
+      {
+        "x": "January-Tuesday",
+        "y": 39177788.25
+      },
+      {
+        "x": "January-Wednesday",
+        "y": 31086788.5
+      },
+      {
+        "x": "January-Thursday",
+        "y": 35081604.25
+      },
+      {
+        "x": "January-Friday",
+        "y": 35051250.2
+      },
+      {
+        "x": "February-Monday",
+        "y": 31001586.0
+      },
+      {
+        "x": "February-Tuesday",
+        "y": 26304986.5
+      },
+      {
+        "x": "February-Wednesday",
+        "y": 22024035.25
+      },
+      {
+        "x": "February-Thursday",
+        "y": 19373520.75
+      },
+      {
+        "x": "February-Friday",
+        "y": 23190811.25
+      },
+      {
+        "x": "March-Monday",
+        "y": 34525050.6
+      },
+      {
+        "x": "March-Tuesday",
+        "y": 33479260.0
+      },
+      {
+        "x": "March-Wednesday",
+        "y": 37553624.75
+      },
+      {
+        "x": "March-Thursday",
+        "y": 50373134.0
+      },
+      {
+        "x": "March-Friday",
+        "y": 54740536.25
+      },
+      {
+        "x": "April-Monday",
+        "y": 22874698.75
+      },
+      {
+        "x": "April-Tuesday",
+        "y": 27902234.0
+      },
+      {
+        "x": "April-Wednesday",
+        "y": 30765797.0
+      },
+      {
+        "x": "April-Thursday",
+        "y": 25953805.4
+      },
+      {
+        "x": "April-Friday",
+        "y": 27146134.666666668
+      },
+      {
+        "x": "May-Monday",
+        "y": 21148444.333333332
+      },
+      {
+        "x": "May-Tuesday",
+        "y": 26192757.0
+      },
+      {
+        "x": "May-Wednesday",
+        "y": 25997169.5
+      },
+      {
+        "x": "May-Thursday",
+        "y": 22727426.0
+      },
+      {
+        "x": "May-Friday",
+        "y": 27111597.4
+      },
+      {
+        "x": "June-Monday",
+        "y": 33376786.6
+      },
+      {
+        "x": "June-Tuesday",
+        "y": 28598090.8
+      },
+      {
+        "x": "June-Wednesday",
+        "y": 30745907.0
+      },
+      {
+        "x": "June-Thursday",
+        "y": 27130277.5
+      },
+      {
+        "x": "June-Friday",
+        "y": 40143456.5
+      },
+      {
+        "x": "July-Monday",
+        "y": 33723602.75
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 40496347.0
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 36622529.4
+      },
+      {
+        "x": "July-Thursday",
+        "y": 43159463.0
+      },
+      {
+        "x": "July-Friday",
+        "y": 33475306.0
+      },
+      {
+        "x": "August-Monday",
+        "y": 38041053.8
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 32013768.75
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 33734084.5
+      },
+      {
+        "x": "August-Thursday",
+        "y": 29341530.5
+      },
+      {
+        "x": "August-Friday",
+        "y": 33912394.5
+      },
+      {
+        "x": "September-Monday",
+        "y": 30074674.333333332
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 32902746.2
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 31368415.4
+      },
+      {
+        "x": "September-Thursday",
+        "y": 31605421.5
+      },
+      {
+        "x": "September-Friday",
+        "y": 35197543.25
+      },
+      {
+        "x": "October-Monday",
+        "y": 28477116.0
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 29541263.5
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 41699633.5
+      },
+      {
+        "x": "October-Thursday",
+        "y": 31232022.6
+      },
+      {
+        "x": "October-Friday",
+        "y": 29794635.2
+      },
+      {
+        "x": "November-Monday",
+        "y": 23550026.6
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 21166475.0
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 19296484.75
+      },
+      {
+        "x": "November-Thursday",
+        "y": 28377666.0
+      },
+      {
+        "x": "November-Friday",
+        "y": 23783357.75
+      },
+      {
+        "x": "December-Monday",
+        "y": 16179026.75
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 18783376.0
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 17717537.0
+      },
+      {
+        "x": "December-Thursday",
+        "y": 18625166.6
+      },
+      {
+        "x": "December-Friday",
+        "y": 29163016.0
+      }
+    ]
+  },
+  {
+    "id": "PYPL",
+    "data": [
+      {
+        "x": "July-Monday",
+        "y": 34233211.0
+      },
+      {
+        "x": "July-Tuesday",
+        "y": 25970294.5
+      },
+      {
+        "x": "July-Wednesday",
+        "y": 18584649.0
+      },
+      {
+        "x": "July-Thursday",
+        "y": 16547622.5
+      },
+      {
+        "x": "July-Friday",
+        "y": 13377442.5
+      },
+      {
+        "x": "August-Monday",
+        "y": 11971512.0
+      },
+      {
+        "x": "August-Tuesday",
+        "y": 9853037.5
+      },
+      {
+        "x": "August-Wednesday",
+        "y": 15747500.25
+      },
+      {
+        "x": "August-Thursday",
+        "y": 11185720.5
+      },
+      {
+        "x": "August-Friday",
+        "y": 9942854.25
+      },
+      {
+        "x": "September-Monday",
+        "y": 9278893.333333334
+      },
+      {
+        "x": "September-Tuesday",
+        "y": 10694285.0
+      },
+      {
+        "x": "September-Wednesday",
+        "y": 8918920.4
+      },
+      {
+        "x": "September-Thursday",
+        "y": 8302411.75
+      },
+      {
+        "x": "September-Friday",
+        "y": 9930723.0
+      },
+      {
+        "x": "October-Monday",
+        "y": 6861217.25
+      },
+      {
+        "x": "October-Tuesday",
+        "y": 7704536.0
+      },
+      {
+        "x": "October-Wednesday",
+        "y": 8979011.0
+      },
+      {
+        "x": "October-Thursday",
+        "y": 12382888.8
+      },
+      {
+        "x": "October-Friday",
+        "y": 8246056.0
+      },
+      {
+        "x": "November-Monday",
+        "y": 9175840.4
+      },
+      {
+        "x": "November-Tuesday",
+        "y": 16035962.5
+      },
+      {
+        "x": "November-Wednesday",
+        "y": 9298641.0
+      },
+      {
+        "x": "November-Thursday",
+        "y": 8649008.333333334
+      },
+      {
+        "x": "November-Friday",
+        "y": 6178711.5
+      },
+      {
+        "x": "December-Monday",
+        "y": 5376804.5
+      },
+      {
+        "x": "December-Tuesday",
+        "y": 8698424.0
+      },
+      {
+        "x": "December-Wednesday",
+        "y": 6381313.6
+      },
+      {
+        "x": "December-Thursday",
+        "y": 5466216.2
+      },
+      {
+        "x": "December-Friday",
+        "y": 10906500.666666666
+      }
+    ]
+  }
+]

@@ -26,6 +26,12 @@ const timeFrameOptions = [
 
 const stockOptions = stockNames.map(stock => ({ value: stock, label: stock }));
 
+const yearOptions = [];
+for (let year = 2007; year <= 2017; year++) {
+  yearOptions.push({ value: year, label: year.toString() });
+}
+yearOptions.push({value: 10, label: "2007-2017"})
+
 function App() {
   const [data, setData] = useState([]);
   const [originalData, setOriginalData] = useState([]);
@@ -35,6 +41,8 @@ function App() {
   const [selectedTimeFrame, setSelectedTimeFrame] = useState(timeFrameOptions[0]); // "Weekday" as default
   const [startDate, setStartDate] = useState(new Date('2010-10-10'));
   const minDate = new Date('2007-01-01');
+  const [selectedYear, setSelectedYear] = useState({ value: 2007, label: '2007' });
+
 
 
   const aggregateByDayOfWeek = (data) => {
@@ -162,12 +170,22 @@ function App() {
       try {
         let fetchedData;
         if (selectedTimeFrame.value === 'weekday') {
-          fetchedData = require('./results.json');
+          if(selectedYear.value === 10){
+            fetchedData = require(`./results.json`);
+          }
+          else{
+            fetchedData = require(`./dataset/result_${selectedYear.value}.json`);
+          }
           if(aggregateStocks) {
             fetchedData = aggregateByDayOfWeek(fetchedData);
           }
         } else if (selectedTimeFrame.value === 'month-weekday') {
-          fetchedData = require('./results-month.json');
+          if(selectedYear.value === 10){
+            fetchedData = require(`./results-month.json`);
+          }
+          else{
+            fetchedData = require(`./dataset/result-month_${selectedYear.value}.json`);
+          }
           if(aggregateStocks) {
             fetchedData = aggregateByDayOfWeekMonth(fetchedData);
           }
@@ -187,7 +205,7 @@ function App() {
     };
 
     fetchDataByTimeFrame(); // Fetch data when the selected time frame changes.
-  }, [selectedTimeFrame, aggregateStocks, selectedStocks]); // Add selectedStocks to the dependency array
+  }, [selectedTimeFrame, aggregateStocks, selectedStocks, selectedYear]); // Add selectedStocks to the dependency array
 
 
 
@@ -281,6 +299,10 @@ function App() {
     setAggregateStocks(event.target.checked);
   }
 
+  const handleYearChange = selectedOption => {
+    setSelectedYear(selectedOption);
+  };
+
 
 
     return (
@@ -342,7 +364,22 @@ function App() {
               <MyResponsiveLine data={data} date={startDate}/>
               </>
           ) : (
+              <>
+                <div style={{ display: 'flex', alignItems: 'center'}}>
+                  <div className="dropdownHeader" style={{ marginRight: '10px' }}>
+                    <label htmlFor="yearDropdown">Select Year:</label>
+                  </div>
+                  <Select
+                      id="yearDropdown"
+                      value={selectedYear}
+                      onChange={handleYearChange}
+                      options={yearOptions}
+                      isSearchable={false}
+                      style={{ width: '100px' }}
+                  />
+                </div>
               <MyHeatMap data={data} />
+              </>
           )}
         </div>
       </div>

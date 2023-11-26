@@ -33,7 +33,7 @@ function App() {
   const [selectedStocks, setSelectedStocks] = useState(stockOptions); // All stocks selected by default
   const [aggregateStocks, setAggregateStocks] = useState(false);
   const [selectedTimeFrame, setSelectedTimeFrame] = useState(timeFrameOptions[0]); // "Weekday" as default
-  const [startDate, setStartDate] = useState(new Date('2010-12-30'));
+  const [startDate, setStartDate] = useState(new Date('2010-10-10'));
   const minDate = new Date('2007-01-01');
 
 
@@ -73,65 +73,65 @@ function App() {
   function aggregateByDayOfWeekMonth(data) {
     const sums = {
       'January-Monday': { sum: 0, count: 0 },
-        'January-Tuesday': { sum: 0, count: 0 },
-        'January-Wednesday': { sum: 0, count: 0 },
-        'January-Thursday': { sum: 0, count: 0 },
-        'January-Friday': { sum: 0, count: 0 },
-        'February-Monday': { sum: 0, count: 0 },
-        'February-Tuesday': { sum: 0, count: 0 },
-        'February-Wednesday': { sum: 0, count: 0 },
-        'February-Thursday': { sum: 0, count: 0 },
-        'February-Friday': { sum: 0, count: 0 },
-        'March-Monday': { sum: 0, count: 0 },
-        'March-Tuesday': { sum: 0, count: 0 },
-        'March-Wednesday': { sum: 0, count: 0 },
-        'March-Thursday': { sum: 0, count: 0 },
-        'March-Friday': { sum: 0, count: 0 },
-        'April-Monday': { sum: 0, count: 0 },
-        'April-Tuesday': { sum: 0, count: 0 },
-        'April-Wednesday': { sum: 0, count: 0 },
-        'April-Thursday': { sum: 0, count: 0 },
-        'April-Friday': { sum: 0, count: 0 },
-        'May-Monday': { sum: 0, count: 0 },
-        'May-Tuesday': { sum: 0, count: 0 },
-        'May-Wednesday': { sum: 0, count: 0 },
-        'May-Thursday': { sum: 0, count: 0 },
-        'May-Friday': { sum: 0, count: 0 },
-        'June-Monday': { sum: 0, count: 0 },
-        'June-Tuesday': { sum: 0, count: 0 },
-        'June-Wednesday': { sum: 0, count: 0 },
-        'June-Thursday': { sum: 0, count: 0 },
-        'June-Friday': { sum: 0, count: 0 },
-        'July-Monday': { sum: 0, count: 0 },
-        'July-Tuesday': { sum: 0, count: 0 },
-        'July-Wednesday': { sum: 0, count: 0 },
-        'July-Thursday': { sum: 0, count: 0 },
-        'July-Friday': { sum: 0, count: 0 },
-        'August-Monday': { sum: 0, count: 0 },
-        'August-Tuesday': { sum: 0, count: 0 },
-        'August-Wednesday': { sum: 0, count: 0 },
-        'August-Thursday': { sum: 0, count: 0 },
-        'August-Friday': { sum: 0, count: 0 },
-        'September-Monday': { sum: 0, count: 0 },
-        'September-Tuesday': { sum: 0, count: 0 },
-        'September-Wednesday': { sum: 0, count: 0 },
-        'September-Thursday': { sum: 0, count: 0 },
-        'September-Friday': { sum: 0, count: 0 },
-        'October-Monday': { sum: 0, count: 0 },
-        'October-Tuesday': { sum: 0, count: 0 },
-        'October-Wednesday': { sum: 0, count: 0 },
-        'October-Thursday': { sum: 0, count: 0 },
-        'October-Friday': { sum: 0, count: 0 },
-        'November-Monday': { sum: 0, count: 0 },
-        'November-Tuesday': { sum: 0, count: 0 },
-        'November-Wednesday': { sum: 0, count: 0 },
-        'November-Thursday': { sum: 0, count: 0 },
-        'November-Friday': { sum: 0, count: 0 },
-    'December-Monday': { sum: 0, count: 0 },
-    'December-Tuesday': { sum: 0, count: 0 },
-    'December-Wednesday': { sum: 0, count: 0 },
-    'December-Thursday': { sum: 0, count: 0 },
-    'December-Friday': { sum: 0, count: 0 },
+      'January-Tuesday': { sum: 0, count: 0 },
+      'January-Wednesday': { sum: 0, count: 0 },
+      'January-Thursday': { sum: 0, count: 0 },
+      'January-Friday': { sum: 0, count: 0 },
+      'February-Monday': { sum: 0, count: 0 },
+      'February-Tuesday': { sum: 0, count: 0 },
+      'February-Wednesday': { sum: 0, count: 0 },
+      'February-Thursday': { sum: 0, count: 0 },
+      'February-Friday': { sum: 0, count: 0 },
+      'March-Monday': { sum: 0, count: 0 },
+      'March-Tuesday': { sum: 0, count: 0 },
+      'March-Wednesday': { sum: 0, count: 0 },
+      'March-Thursday': { sum: 0, count: 0 },
+      'March-Friday': { sum: 0, count: 0 },
+      'April-Monday': { sum: 0, count: 0 },
+      'April-Tuesday': { sum: 0, count: 0 },
+      'April-Wednesday': { sum: 0, count: 0 },
+      'April-Thursday': { sum: 0, count: 0 },
+      'April-Friday': { sum: 0, count: 0 },
+      'May-Monday': { sum: 0, count: 0 },
+      'May-Tuesday': { sum: 0, count: 0 },
+      'May-Wednesday': { sum: 0, count: 0 },
+      'May-Thursday': { sum: 0, count: 0 },
+      'May-Friday': { sum: 0, count: 0 },
+      'June-Monday': { sum: 0, count: 0 },
+      'June-Tuesday': { sum: 0, count: 0 },
+      'June-Wednesday': { sum: 0, count: 0 },
+      'June-Thursday': { sum: 0, count: 0 },
+      'June-Friday': { sum: 0, count: 0 },
+      'July-Monday': { sum: 0, count: 0 },
+      'July-Tuesday': { sum: 0, count: 0 },
+      'July-Wednesday': { sum: 0, count: 0 },
+      'July-Thursday': { sum: 0, count: 0 },
+      'July-Friday': { sum: 0, count: 0 },
+      'August-Monday': { sum: 0, count: 0 },
+      'August-Tuesday': { sum: 0, count: 0 },
+      'August-Wednesday': { sum: 0, count: 0 },
+      'August-Thursday': { sum: 0, count: 0 },
+      'August-Friday': { sum: 0, count: 0 },
+      'September-Monday': { sum: 0, count: 0 },
+      'September-Tuesday': { sum: 0, count: 0 },
+      'September-Wednesday': { sum: 0, count: 0 },
+      'September-Thursday': { sum: 0, count: 0 },
+      'September-Friday': { sum: 0, count: 0 },
+      'October-Monday': { sum: 0, count: 0 },
+      'October-Tuesday': { sum: 0, count: 0 },
+      'October-Wednesday': { sum: 0, count: 0 },
+      'October-Thursday': { sum: 0, count: 0 },
+      'October-Friday': { sum: 0, count: 0 },
+      'November-Monday': { sum: 0, count: 0 },
+      'November-Tuesday': { sum: 0, count: 0 },
+      'November-Wednesday': { sum: 0, count: 0 },
+      'November-Thursday': { sum: 0, count: 0 },
+      'November-Friday': { sum: 0, count: 0 },
+      'December-Monday': { sum: 0, count: 0 },
+      'December-Tuesday': { sum: 0, count: 0 },
+      'December-Wednesday': { sum: 0, count: 0 },
+      'December-Thursday': { sum: 0, count: 0 },
+      'December-Friday': { sum: 0, count: 0 },
     };
 
     // Iterar sobre cada conjunto de dados de ações
@@ -196,11 +196,11 @@ function App() {
       
       let filteredData = JSON.parse(JSON.stringify(originalData)); // Create a deep copy of the original data
     
-    // Apply filtering only when not aggregating
-    if (!aggregateStocks && selectedStocks.length) {
-      const selectedStockNames = selectedStocks.map(stock => stock.value);
-      filteredData = filteredData.filter(stock => selectedStockNames.includes(stock.id));
-    }
+      // Apply filtering only when not aggregating
+      if (!aggregateStocks && selectedStocks.length) {
+        const selectedStockNames = selectedStocks.map(stock => stock.value);
+        filteredData = filteredData.filter(stock => selectedStockNames.includes(stock.id));
+      }
     
       
       const maxVolume = Math.max(...filteredData.map(stock => Math.max(...stock.data.map(item => item.y))));

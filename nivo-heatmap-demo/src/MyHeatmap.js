@@ -22,8 +22,6 @@ export const MyHeatMap = ({ data }) => {
         maxValue = Math.max(...data.map(stock => Math.max(...stock.data.map(item => item.y))));
     }
 
-    console.log("In heatmap: ",minValue, maxValue, "\ndata: ", data);
-
     return <ResponsiveHeatMap
         data={data}
         margin={{ top: 60, right: 90, bottom: 60, left: 90 }}

@@ -43,6 +43,21 @@ for filename in os.listdir(input_dir):
             "data": stock_data
         })
 
+# Create a map for the first prices
+first_price_map = {}
+for stock in all_stocks_data:
+    if stock['data']:
+        first_price_map[stock['id']] = stock['data'][0]['y']
+
+# Filter out any series that do not have a first price defined
+all_stocks_data = [stock for stock in all_stocks_data if stock['id'] in first_price_map]
+
+# Now perform the mapping on the filtered array
+for stock in all_stocks_data:
+    first_price = first_price_map[stock['id']]
+    for point in stock['data']:
+        point['y'] = ((point['y'] - first_price) / first_price) * 100
+
 # Write all data to a single file
 output_filepath = os.path.join(output_filename)
 with open(output_filepath, 'w') as f:

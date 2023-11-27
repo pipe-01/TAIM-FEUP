@@ -22,33 +22,34 @@ export const MyResponsiveLine = ({ data , date , agg, combinedYTD}) => {
                 return pointDate >= startOfYear && pointDate <= date;
             })
         }));
+
+        const firstPriceMap = new Map();
+        filteredData.forEach(serie => {
+            const firstPrice = serie.data[0];
+            firstPriceMap.set(serie.id, firstPrice);
+        });
+
+        // Filter out any series that do not have a first price defined
+        filteredData = filteredData.filter(serie => {
+            const fp = firstPriceMap.get(serie.id);
+
+            return fp !== undefined; // Only include series where first price is defined
+        });
+        
+        // Now perform the mapping on the filtered array
+        filteredData.forEach(serie => {
+            const fp = firstPriceMap.get(serie.id);
+            const firstPrice = fp.y;
+            serie.data = serie.data.map(point => ({
+            ...point,
+            y: ((point.y - firstPrice) / firstPrice) * 100
+            }));
+        });
     }
     else{
         var filteredData = data;
     }
-    //make it so that the data is the % change from the start of the year (ex: 0% = no change, 100% = doubled in price, -50% = halved in price, also filtered data contains various stocks, so you need to find the first  value of the  every stock. Skip and remove stocks that don't have data for the start of the year)
-    const firstPriceMap = new Map();
-    filteredData.forEach(serie => {
-        const firstPrice = serie.data[0];
-        firstPriceMap.set(serie.id, firstPrice);
-    });
-
-    // Filter out any series that do not have a first price defined
-    filteredData = filteredData.filter(serie => {
-        const fp = firstPriceMap.get(serie.id);
-
-        return fp !== undefined; // Only include series where first price is defined
-    });
-    
-    // Now perform the mapping on the filtered array
-    filteredData.forEach(serie => {
-        const fp = firstPriceMap.get(serie.id);
-        const firstPrice = fp.y;
-        serie.data = serie.data.map(point => ({
-        ...point,
-        y: ((point.y - firstPrice) / firstPrice) * 100
-        }));
-    });
+    //make it so that the data is the % change from the start of the year (ex: 0% = no change, 100% = doubled in price, -50% = halved in price, also filtered data contains various stocks, so you need to find the first  value of the  every stock. Skip and remove stocks that don't have data for the start of the year
 
     if(agg){
         // Aggregation: join all series into one by averaging the values for that date
@@ -77,6 +78,7 @@ export const MyResponsiveLine = ({ data , date , agg, combinedYTD}) => {
         ];
     }
 
+    console.log("LATSTS:", filteredData);
 
     return <ResponsiveLine
         data={filteredData}
@@ -95,7 +97,7 @@ export const MyResponsiveLine = ({ data , date , agg, combinedYTD}) => {
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 90,
-            format: combinedYTD? "%b" : '%b %d',
+            format: combinedYTD? "%b %y" : '%b %d',
             legend: 'Date',
             legendOffset: -4,
             tickValues: combinedYTD ? 'every 1 month' : 'every 7 days',

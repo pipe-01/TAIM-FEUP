@@ -78,7 +78,6 @@ function App() {
     // Calcular a média para cada dia da semana
     const averages = Object.keys(sums).map(day => {
       const average = sums[day].sum / sums[day].count;
-      console.log("average: ", average, " for day: ", day, " with sum: ", sums[day].sum, " and count: ", sums[day].count);
       return {
         x: day,
         y: average
@@ -201,7 +200,12 @@ function App() {
         }
 
         else if (selectedTimeFrame.value === 'YTD') {
-          fetchedData = require('./results-ytd.json'); // Replace with the actual YTD data source.
+          if(!combinedYTD){
+            fetchedData = require('./results-ytd.json'); // Replace with the actual YTD data source.
+          }
+          else{
+            fetchedData = require('./results-ytd-combined.json');
+          }
           // Apply selectedStocks filter for YTD
           if (selectedStocks.length) {
             const selectedStockNames = selectedStocks.map(stock => stock.value);

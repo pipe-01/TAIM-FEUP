@@ -26,9 +26,9 @@ const normalizeOptions = [
 ];
 
 const timeFrameOptions = [
-  { value: "weekday", label: "Weekday" },
-  { value: "month-weekday", label: "Month-Weekday" },
-  { value: "YTD", label: "YTD" },
+  { value: "weekday", label: "Activity-Weekday" },
+  { value: "month-weekday", label: "Activity-Month-Weekday" },
+  { value: "YTD", label: "Profitability-YTD" },
 ];
 
 const stockOptions = stockNames.map(stock => ({ value: stock, label: stock }));
@@ -47,7 +47,7 @@ function App() {
   const [aggregateStocks, setAggregateStocks] = useState(false);
   const [combinedYTD, setCombinedYTD] = useState(false);
   const [selectedTimeFrame, setSelectedTimeFrame] = useState(timeFrameOptions[0]); // "Weekday" as default
-  const [startDate, setStartDate] = useState(new Date('2010-10-10'));
+  const [startDate, setStartDate] = useState(new Date('2014-12-31'));
   const minDate = new Date('2007-01-01');
   const maxDate = new Date('2017-12-31');
   const [selectedYear, setSelectedYear] = useState({ value: 2010, label: '2010' });
@@ -387,7 +387,7 @@ function App() {
                   <input
                     id="combinedYTD"
                     type="checkbox"
-                    checked={aggregateStocks}
+                    checked={combinedYTD}
                     onChange={handleCombinedYTD}
                     style={{ marginLeft: '10px' }}
                   />

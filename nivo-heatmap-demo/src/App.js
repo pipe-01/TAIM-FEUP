@@ -2,20 +2,27 @@ import React, { useState, useEffect } from 'react';
 import Select from 'react-select';
 import { MyHeatMap } from './MyHeatmap';
 import './App.css';
-import {MyResponsiveLine} from "./MyResponsiveLine";
+import { MyResponsiveLine } from "./MyResponsiveLine";
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import { components } from 'react-select';
+
+// Custom component for wrapping the selected options
+const MultiValueContainer = ({ children, ...props }) => {
+  return (
+    <components.MultiValueContainer {...props}>
+      {children}
+    </components.MultiValueContainer>
+  );
+};
+
 
 
 const stockNames = ['AAPL', 'ADBE', 'AMZN', 'BA', 'BRK_A', `BRK_B`, `CSCO`, `FB`, `GM`, `GOOGL`, `INTC`, `JNJ`, 'KO', `MSFT`, `NFLX`, `NVDA`, `ORCL`, `PYPL`, `TSLA`, `WMT`];
 
 const normalizeOptions = [
   { value: "min-max", label: "Min-Max" },
-  { value: "z-score", label: "Z-Score" },
-  { value: "log", label: "Log" },
   { value: "no normalization", label: "No Normalization" },
-  { value: "max abs scaler", label: "Max Abs Scaler" },
-  { value: "robust scaler", label: "Robust Scaler" },
 ];
 
 const timeFrameOptions = [
@@ -30,18 +37,20 @@ const yearOptions = [];
 for (let year = 2007; year <= 2017; year++) {
   yearOptions.push({ value: year, label: year.toString() });
 }
-yearOptions.push({value: 10, label: "2007-2017"})
+yearOptions.push({ value: 10, label: "2007-2017" })
 
 function App() {
   const [data, setData] = useState([]);
   const [originalData, setOriginalData] = useState([]);
-  const [selectedNormalization, setSelectedNormalization] = useState(normalizeOptions[3]); // "No Normalization" as default
+  const [selectedNormalization, setSelectedNormalization] = useState(normalizeOptions[1]); // "No Normalization" as default
   const [selectedStocks, setSelectedStocks] = useState(stockOptions); // All stocks selected by default
   const [aggregateStocks, setAggregateStocks] = useState(false);
+  const [combinedYTD, setCombinedYTD] = useState(false);
   const [selectedTimeFrame, setSelectedTimeFrame] = useState(timeFrameOptions[0]); // "Weekday" as default
   const [startDate, setStartDate] = useState(new Date('2010-10-10'));
   const minDate = new Date('2007-01-01');
-  const [selectedYear, setSelectedYear] = useState({ value: 2007, label: '2007' });
+  const maxDate = new Date('2017-12-31');
+  const [selectedYear, setSelectedYear] = useState({ value: 2010, label: '2010' });
 
 
 
@@ -55,6 +64,8 @@ function App() {
       'Friday': { sum: 0, count: 0 },
     };
 
+
+
     // Iterar sobre cada conjunto de dados de ações
     data.forEach(stock => {
       stock.data.forEach(dayData => {
@@ -67,6 +78,7 @@ function App() {
     // Calcular a média para cada dia da semana
     const averages = Object.keys(sums).map(day => {
       const average = sums[day].sum / sums[day].count;
+      console.log("average: ", average, " for day: ", day, " with sum: ", sums[day].sum, " and count: ", sums[day].count);
       return {
         x: day,
         y: average
@@ -170,34 +182,44 @@ function App() {
       try {
         let fetchedData;
         if (selectedTimeFrame.value === 'weekday') {
-          if(selectedYear.value === 10){
+          if (selectedYear.value === 10) {
             fetchedData = require(`./results.json`);
           }
-          else{
+          else {
             fetchedData = require(`./dataset/result_${selectedYear.value}.json`);
           }
-          if(aggregateStocks) {
-            fetchedData = aggregateByDayOfWeek(fetchedData);
-          }
-        } else if (selectedTimeFrame.value === 'month-weekday') {
-          if(selectedYear.value === 10){
+        }
+
+
+        else if (selectedTimeFrame.value === 'month-weekday') {
+          if (selectedYear.value === 10) {
             fetchedData = require(`./results-month.json`);
           }
-          else{
+          else {
             fetchedData = require(`./dataset/result-month_${selectedYear.value}.json`);
           }
-          if(aggregateStocks) {
-            fetchedData = aggregateByDayOfWeekMonth(fetchedData);
-          }
-        } else if (selectedTimeFrame.value === 'YTD') {
+        }
+
+        else if (selectedTimeFrame.value === 'YTD') {
           fetchedData = require('./results-ytd.json'); // Replace with the actual YTD data source.
           // Apply selectedStocks filter for YTD
-          if (!aggregateStocks && selectedStocks.length) {
+          if (selectedStocks.length) {
             const selectedStockNames = selectedStocks.map(stock => stock.value);
             fetchedData = fetchedData.filter(stock => selectedStockNames.includes(stock.id));
           }
         }
+
+        if (aggregateStocks) {
+          if (selectedTimeFrame.value === 'weekday') {
+            fetchedData = aggregateByDayOfWeek(fetchedData);
+          } else if (selectedTimeFrame.value === 'month-weekday') {
+            fetchedData = aggregateByDayOfWeekMonth(fetchedData);
+          }
+        }
+
+
         setOriginalData(JSON.parse(JSON.stringify(fetchedData))); // Store a deep copy of the original data
+
         setData(fetchedData);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -205,103 +227,52 @@ function App() {
     };
 
     fetchDataByTimeFrame(); // Fetch data when the selected time frame changes.
-  }, [selectedTimeFrame, aggregateStocks, selectedStocks, selectedYear]); // Add selectedStocks to the dependency array
+  }, [selectedTimeFrame, aggregateStocks, selectedStocks, selectedYear, combinedYTD]); // Add selectedStocks to the dependency array
 
 
 
   useEffect(() => {
-      if (!originalData.length) return; // Ensure there is data to normalize
-      
-      let filteredData = JSON.parse(JSON.stringify(originalData)); // Create a deep copy of the original data
-    
-      // Apply filtering only when not aggregating
-      if (!aggregateStocks && selectedStocks.length) {
-        const selectedStockNames = selectedStocks.map(stock => stock.value);
-        filteredData = filteredData.filter(stock => selectedStockNames.includes(stock.id));
-      }
-    
-      
-      //const maxVolume = Math.max(...filteredData.map(stock => Math.max(...stock.data.map(item => item.y))));
-      //const minVolume = Math.min(...filteredData.map(stock => Math.min(...stock.data.map(item => item.y))));
-      
-      const normalizationType = selectedNormalization.value;
-        
+    if (!originalData.length) return; // Ensure there is data to normalize
+
+    let filteredData = JSON.parse(JSON.stringify(originalData)); // Create a deep copy of the original data
+
+    // Apply filtering only when not aggregating
+    if (!aggregateStocks && selectedStocks.length) {
+      const selectedStockNames = selectedStocks.map(stock => stock.value);
+      filteredData = filteredData.filter(stock => selectedStockNames.includes(stock.id));
+    }
+
+
+    // const maxVolume = Math.max(...filteredData.map(stock => Math.max(...stock.data.map(item => item.y))));
+    // const minVolume = Math.min(...filteredData.map(stock => Math.min(...stock.data.map(item => item.y))));
+
+    const normalizationType = selectedNormalization.value;
+
+    if (!aggregateStocks) {
       if (normalizationType === "min-max") {
-        const rangeDivision = 1 / filteredData.length; // Divide the [0,1] interval by the number of companies.
-        let cumulativeOffset = 0; // Initialize an offset to sum the normalized values.
-      
-        filteredData.forEach((stock, index) => {
-          // Calculate min and max for each stock.
-          const stockMax = Math.max(...stock.data.map(item => item.y));
-          const stockMin = Math.min(...stock.data.map(item => item.y));
-          // Normalize each stock's data to the [0, rangeDivision] interval.
-          stock.data = stock.data.map(item => ({
-            x: item.x,
-            y: ((item.y - stockMin) / (stockMax - stockMin)) * rangeDivision
-          }));
-          // Offset each stock's normalized data to ensure the full range [0,1] is used cumulatively.
-          stock.data = stock.data.map(item => ({
-            x: item.x,
-            y: item.y + cumulativeOffset
-          }));
-          cumulativeOffset += rangeDivision; // Increase the offset for the next company.
-        });
-      } else if (normalizationType === "z-score") {
         filteredData.forEach(stock => {
-          const mean = stock.data.reduce((acc, item) => acc + item.y, 0) / stock.data.length;
-          const stdDev = Math.sqrt(stock.data.reduce((acc, item) => acc + Math.pow(item.y - mean, 2), 0) / stock.data.length);
+          //get the min and max values for each stock
+          var maxVolume = Math.max(...stock.data.map(item => item.y));
+          var minVolume = Math.min(...stock.data.map(item => item.y));
+
           stock.data = stock.data.map(item => ({
             x: item.x,
-            y: (item.y - mean) / stdDev
-          }));
-        });
-      } else if (normalizationType === "log") {
-        filteredData.forEach(stock => {
-          stock.data = stock.data.map(item => ({
-            x: item.x,
-            y: Math.log(item.y)
-          }));
-        });
-      } else if (normalizationType === "max abs scaler") {
-        filteredData.forEach(stock => {
-          const maxAbsValue = Math.max(...stock.data.map(item => Math.abs(item.y)));
-          if (maxAbsValue === 0) {
-            console.error('Maximum absolute value is zero, resulting in a divide by zero error for stock:', stock);
-            return;
-          }
-          stock.data = stock.data.map(item => ({
-            x: item.x,
-            y: item.y / maxAbsValue
-          }));
-        });
-      } else if (normalizationType === "robust scaler") {
-        filteredData.forEach(stock => {
-          const values = stock.data.map(item => item.y).sort((a, b) => a - b);
-          const median = values.length % 2 === 0 ? (values[values.length / 2 - 1] + values[values.length / 2]) / 2 : values[Math.floor(values.length / 2)];
-          const q1 = values[Math.floor(values.length / 4)];
-          const q3 = values[Math.floor(3 * values.length / 4)];
-          const iqr = q3 - q1;
-          if (iqr === 0) {
-            console.error('Interquartile range is zero, potentially leading to divide by zero errors for stock:', stock);
-            return;
-          }
-          stock.data = stock.data.map(item => ({
-            x: item.x,
-            y: (item.y - median) / iqr
+            y: (item.y - minVolume) / (maxVolume - minVolume)
           }));
         });
       }
-  
-      setData(filteredData);
-    }, [selectedNormalization, originalData, selectedStocks], aggregateStocks);
-
-    const handleNormalizationChange = selectedOption => {
-      setSelectedNormalization(selectedOption);
     }
 
-    const handleStockChange = selectedOptions => {
-      setSelectedStocks(selectedOptions);
-    }
+    setData(filteredData);
+  }, [selectedNormalization, originalData, selectedStocks], aggregateStocks, combinedYTD);
+
+  const handleNormalizationChange = selectedOption => {
+    setSelectedNormalization(selectedOption);
+  }
+
+  const handleStockChange = selectedOptions => {
+    setSelectedStocks(selectedOptions);
+  }
 
   const handleTimeFrameChange = selectedOption => {
     setSelectedTimeFrame(selectedOption);
@@ -311,91 +282,142 @@ function App() {
     setAggregateStocks(event.target.checked);
   }
 
+  const handleCombinedYTD = event => {
+    setCombinedYTD(event.target.checked);
+  }
+
   const handleYearChange = selectedOption => {
     setSelectedYear(selectedOption);
   };
 
+  const customStyles = {
+    multiValue: (base, state) => {
+      return {
+        ...base,
+        // Adjust the following properties as needed
+        maxWidth: 'calc(100% / 6 - 10px)', // assuming 7 items per line and some space for margin
+        margin: '5px',
+        justifyContent: 'center',
+        flexGrow: 1,
+        flexBasis: 'calc(100% / 6 - 10px)',
+      };
+    },
+    valueContainer: (base, state) => {
+      return {
+        ...base,
+        flexWrap: 'wrap', // this will allow items to wrap onto the next line
+      };
+    },
+  };
 
 
-    return (
-      <div className="App">
-        <h1 style={{textAlign: 'center', fontSize: '2.5em'}}>HeatMap</h1>
-        <div id="heatmapdiv" style={{ height: "100vh" }}>
-          <div style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'space-evenly' }}>
-            <div className="dropdownHeader">
-              <label htmlFor="normalizeDropdown" style={{ marginRight: '10px' }}>Normalize Type:</label>
-              <Select
-                id="normalizeDropdown"
-                value={selectedNormalization}
-                onChange={handleNormalizationChange}
-                options={normalizeOptions}
-                isSearchable={false}
-                style={{ width: '200px', marginRight: '20px' }}
-              />
-            </div>
-            <div className="dropdownHeader">
-              <label htmlFor="stocksDropdown" style={{ marginRight: '10px' }}>Select Stocks:</label>
-              <Select
-                id="stocksDropdown"
-                value={selectedStocks}
-                onChange={handleStockChange}
-                options={stockOptions}
-                isMulti
-                closeMenuOnSelect={false}
-                style={{ width: '300px' }}
-              />
-            </div>
+
+
+  return (
+    <div className="App">
+      <h1 style={{ textAlign: 'center', fontSize: '2.5em' }}>HeatMap</h1>
+      <div id="heatmapdiv" style={{ height: "100vh" }}>
+        <div style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'space-evenly' }}>
+          <div className="dropdownHeader">
+            <label htmlFor="normalizeDropdown" style={{ marginRight: '10px' }}>Normalize Type:</label>
+            <Select
+              id="normalizeDropdown"
+              value={selectedNormalization}
+              onChange={handleNormalizationChange}
+              options={normalizeOptions}
+              isSearchable={false}
+              style={{ width: '200px', marginRight: '20px' }}
+            />
+          </div>
+          <div className="dropdownHeader" style={{ maxWidth: '30%' }}>
+            <label htmlFor="stocksDropdown" style={{ marginRight: '10px' }}>Select Stocks:</label>
+            <Select
+              id="stocksDropdown"
+              value={selectedStocks}
+              onChange={handleStockChange}
+              options={stockOptions}
+              isMulti
+              closeMenuOnSelect={false}
+              styles={customStyles}
+              components={{
+                MultiValueContainer
+              }}
+            />
+          </div>
+          <div className="timeFrameDropdownHeader" style={{ display: 'flex', alignItems: 'center' }}>
             <label htmlFor="timeFrameDropdown" style={{ marginRight: '10px' }}>Time Frame:</label>
             <Select
-                id="timeFrameDropdown"
-                value={selectedTimeFrame}
-                onChange={handleTimeFrameChange}
-                options={timeFrameOptions}
-                isSearchable={false}
-                style={{ width: '300px' }}
+              id="timeFrameDropdown"
+              value={selectedTimeFrame}
+              onChange={handleTimeFrameChange}
+              options={timeFrameOptions}
+              isSearchable={false}
+              style={{ width: '300px' }}
             />
+          </div>
 
+          <div className="aggregateCheckboxHeader" style={{ display: 'flex', alignItems: 'center' }}>
             <label htmlFor="aggregateCheckbox">Aggregate Stocks:</label>
             <input
-                id="aggregateCheckbox"
-                type="checkbox"
-                checked={aggregateStocks}
-                onChange={handleAggregateCheckbox}
-                style={{ marginLeft: '10px' }}
+              id="aggregateCheckbox"
+              type="checkbox"
+              checked={aggregateStocks}
+              onChange={handleAggregateCheckbox}
+              style={{ marginLeft: '10px' }}
             />
-
           </div>
           {selectedTimeFrame.value === 'YTD' ? (
+            <div style={{ display: 'flex'}}>
               <>
-                <DatePicker
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <label htmlFor="yearDropdown" style={{ marginRight: '0.5em' }}> Select Date:</label>
+                  <DatePicker
                     selected={startDate}
                     onChange={date => setStartDate(date)}
                     minDate={minDate}
-                    maxDate={new Date()}
-                />
-              <MyResponsiveLine data={data} date={startDate}/>
-              </>
-          ) : (
-              <>
-                <div style={{ display: 'flex', alignItems: 'center'}}>
-                  <div className="dropdownHeader" style={{ marginRight: '10px' }}>
-                    <label htmlFor="yearDropdown">Select Year:</label>
-                  </div>
-                  <Select
-                      id="yearDropdown"
-                      value={selectedYear}
-                      onChange={handleYearChange}
-                      options={yearOptions}
-                      isSearchable={false}
-                      style={{ width: '100px' }}
+                    maxDate={maxDate}
                   />
                 </div>
-              <MyHeatMap data={data} />
+                <div className="aggregateCheckboxHeader" style={{ display: 'flex', alignItems: 'center' }}>
+                  <label htmlFor="combinedYTD" style={{ marginLeft: '1em', marginRight: '0.2em' }}>All YTD:</label>
+                  <input
+                    id="combinedYTD"
+                    type="checkbox"
+                    checked={aggregateStocks}
+                    onChange={handleCombinedYTD}
+                    style={{ marginLeft: '10px' }}
+                  />
+                </div>
               </>
+            </div>
+          ) : (
+            <>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <label htmlFor="yearDropdown" style={{ marginRight: '0.5em' }}> Select Year:</label>
+                <Select
+                  id="yearDropdown"
+                  value={selectedYear}
+                  onChange={handleYearChange}
+                  options={yearOptions}
+                  isSearchable={false}
+                  style={{ width: '100px' }}
+                />
+              </div>
+            </>
           )}
         </div>
+        {selectedTimeFrame.value === 'YTD' ? (
+          <>
+            <MyResponsiveLine data={data} date={startDate} agg={aggregateStocks} combinedYTD={combinedYTD} />
+          </>
+        ) : (
+          <>
+            <MyHeatMap data={data} />
+          </>
+        )}
       </div>
-    );
+    </div>
+  );
 }
 
 export default App;

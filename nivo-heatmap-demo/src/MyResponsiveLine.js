@@ -2,26 +2,30 @@
 // yarn add @nivo/line
 import { ResponsiveLine } from '@nivo/line'
 
-export const MyResponsiveLine = ({ data , date}) => {
+export const MyResponsiveLine = ({ data , date , agg, combinedYTD}) => {
     if(data.length === 0) {
         return <p>Loading data...</p>;
     }
 
-    // Extrai o ano da data selecionada
-    const selectedYear = new Date(date).getFullYear();
+    if(!combinedYTD){
+        // Extrai o ano da data selecionada
+        const selectedYear = new Date(date).getFullYear();
 
-    // Cria uma data que representa o início do ano selecionado
-    const startOfYear = new Date(selectedYear, 0, 1);
+        // Cria uma data que representa o início do ano selecionado
+        const startOfYear = new Date(selectedYear, 0, 1);
 
-    // Filtra os dados para incluir somente pontos desde o início do ano até a data selecionada
-    var filteredData = data.map(serie => ({
-        ...serie,
-        data: serie.data.filter(point => {
-            const pointDate = new Date(point.x);
-            return pointDate >= startOfYear && pointDate <= date;
-        })
-    }));
-
+        // Filtra os dados para incluir somente pontos desde o início do ano até a data selecionada
+        var filteredData = data.map(serie => ({
+            ...serie,
+            data: serie.data.filter(point => {
+                const pointDate = new Date(point.x);
+                return pointDate >= startOfYear && pointDate <= date;
+            })
+        }));
+    }
+    else{
+        var filteredData = data;
+    }
     //make it so that the data is the % change from the start of the year (ex: 0% = no change, 100% = doubled in price, -50% = halved in price, also filtered data contains various stocks, so you need to find the first  value of the  every stock. Skip and remove stocks that don't have data for the start of the year)
     const firstPriceMap = new Map();
     filteredData.forEach(serie => {
@@ -46,6 +50,33 @@ export const MyResponsiveLine = ({ data , date}) => {
         }));
     });
 
+    if(agg){
+        // Aggregation: join all series into one by averaging the values for that date
+        const dateMap = new Map();
+        filteredData.forEach(serie => {
+            serie.data.forEach(point => {
+                const date = point.x;
+                if (!dateMap.has(date)) {
+                    dateMap.set(date, []);
+                }
+                dateMap.get(date).push(point.y);
+            });
+        });
+
+        const aggregatedData = [];
+        dateMap.forEach((values, date) => {
+            const avg = values.reduce((a, b) => a + b, 0) / values.length;
+            aggregatedData.push({ x: date, y: avg });
+        });
+
+        filteredData = [
+            {
+                id: 'Aggregated',
+                data: aggregatedData
+            }
+        ];
+    }
+
 
     return <ResponsiveLine
         data={filteredData}
@@ -64,11 +95,11 @@ export const MyResponsiveLine = ({ data , date}) => {
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 90,
-            format: '%b %d',
+            format: combinedYTD? "%b" : '%b %d',
             legend: 'Date',
             legendOffset: -4,
-            tickValues: 'every 7 days'
-        }}
+            tickValues: combinedYTD ? 'every 1 month' : 'every 7 days',
+        }}          
         axisLeft={{
             // tickSize: 5,
             // tickPadding: 5,

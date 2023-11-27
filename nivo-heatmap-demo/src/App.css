@@ -103,3 +103,43 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* Add this style to your CSS file */
+.multiValueContainer {
+  display: inline-block;
+  max-width: calc(50% / 5); /* Adjust the division to control the number of items per line */
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none; /* to remove default checkbox appearance */
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #ddd; /* color of the track */
+  width: 50px; /* width of the track */
+  height: 26px; /* height of the track */
+  border-radius: 50px; /* round corners */
+  position: relative;
+  outline: none; /* to remove the default focus outline */
+  cursor: pointer; /* to indicate that the element is clickable */
+  transition: background-color 0.4s; /* smooth transition for background-color */
+}
+
+input[type="checkbox"]:checked {
+  background-color: #4cd964; /* color when checked */
+}
+
+input[type="checkbox"]:before {
+  content: '';
+  position: absolute;
+  width: 22px; /* width of the knob */
+  height: 22px; /* height of the knob */
+  border-radius: 50%; /* round corners of the knob */
+  top: 2px; /* position from the top */
+  left: 2px; /* position from the left */
+  background-color: white; /* color of the knob */
+  transition: transform 0.4s; /* smooth transition for moving the knob */
+}
+
+input[type="checkbox"]:checked:before {
+  transform: translateX(24px); /* move the knob to the right when checked */
+}

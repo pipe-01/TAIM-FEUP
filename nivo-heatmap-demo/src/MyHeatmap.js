@@ -14,7 +14,6 @@ export const MyHeatMap = ({ data }) => {
     }
 
     if(data.length === 1){
-        console.log(data[0].data);
         minValue = Math.min(...data[0].data.map(item => item.y));
         maxValue = Math.max(...data[0].data.map(item => item.y));
     }
@@ -22,6 +21,8 @@ export const MyHeatMap = ({ data }) => {
         minValue = Math.min(...data.map(stock => Math.min(...stock.data.map(item => item.y))));
         maxValue = Math.max(...data.map(stock => Math.max(...stock.data.map(item => item.y))));
     }
+
+    console.log("In heatmap: ",minValue, maxValue, "\ndata: ", data);
 
     return <ResponsiveHeatMap
         data={data}
